@@ -28,12 +28,21 @@ python3 logger/build_tables.py   # -> tables/*.csv
 
 `build_tables.py` flattens all snapshots into `tables/maryland_hospital_status.csv`, `tables/maryland_units.csv`, `tables/newyork_ed_status.csv`, `tables/georgia_status.csv`, `tables/georgia_beds.csv` and `tables/georgia_specialties.csv` (git-ignored; regenerate any time).
 
+## San Francisco, CA (event log)
+
+`history/san_francisco/` — San Francisco EMS Agency's open datasets on DataSF, built from ReddiNet:
+
+- `sf_hospital_diversions.csv` ([t4sf-777q](https://data.sf.gov/d/t4sf-777q)) — every hospital diversion since Jan 2024: hospital, category (ED, or Trauma Override at ZSFG), start, end, duration in minutes. Diversions expire after 2 hours unless re-declared, so long episodes appear as consecutive 2-hour rows; many rows are only a few minutes long.
+- `sf_hospital_suspensions.csv` ([6x9s-ipug](https://data.sf.gov/d/6x9s-ipug)) — every citywide diversion suspension (triggered when 4+ hospitals are on diversion; blocks new diversions for 4 hours): start, end, duration.
+
+Times are San Francisco local time as published. DataSF updates these monthly (roughly 6 weeks behind). A weekly workflow ([`.github/workflows/san-francisco.yml`](.github/workflows/san-francisco.yml), Mondays) re-downloads both and commits only when they change. Script: `history/san_francisco/scripts/sf_diversions.py`.
+
 ## Historical backfill: Maryland
 
 The EDAS reports site (https://edas.miemss.org/reports) exposes history from August 2025 onward. Pulled once into `history/maryland/`:
 
 - `edas_alert_log.csv` — every Reroute, Trauma Bypass, Code Black and Capacity alert with start/end/duration, all hospitals (Chronological Alert Log by Hospital report). Raw per-hospital XML exports in `raw_alert_xml/`.
-- `edas_level4_daily.csv` — hours each hospital spent at ED Census Index Level 4 (≥131% of capacity) per day, from the ED Census Index Level 4 report run one day at a time.
+- `edas_level4_daily.csv` — hours each hospital spent at ED Census Index Level 4 (≥131% of capacity) per day, Aug 4 2025 – Nov 18 2026 (53 hospitals), from the ED Census Index Level 4 report run one day at a time. Hospitals with no Level 4 time on a day may be missing rather than listed with 0. The report's percent column does not always divide back to 24 hours; prefer `level4_hours`.
 
 Scripts: `history/maryland/scripts/` (`edas_pull.py all`, `edas_level4_daily.py [start] [end]`, re-runnable and resumable).
 

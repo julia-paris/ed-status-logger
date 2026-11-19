@@ -1,0 +1,47 @@
+name: san-francisco
+
+# Re-download San Francisco's hospital diversion and suspension datasets.
+# DataSF refreshes them about once a month; checking weekly picks up each
+# release within a few days. Files are overwritten and committed only when
+# they change, so git history keeps every published version.
+
+on:
+  schedule:
+    - cron: "41 9 * * 1"   # Mondays 09:41 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot   # shared with the other workflows so pushes don't collide
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            history/san_francisco
+          sparse-checkout-cone-mode: true
+
+      - name: Download datasets
+        run: python3 history/san_francisco/scripts/sf_diversions.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add history/san_francisco/*.csv
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -q -m "san francisco diversions $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            git pull --rebase -q && continue
+            sleep $((i * 5))
+          done
+          exit 1
