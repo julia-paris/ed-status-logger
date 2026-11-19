@@ -8,7 +8,7 @@ Archives three public emergency-department status dashboards every 15 minutes, b
 | New York ED Status (Juvare) | https://nydiverts.juvare.com/ | `nydiverts.juvare.com.json` |
 | Georgia Coordinating Center (ImageTrend) | https://georgiarcc.org/ | `georgiarcc.imagetrendresourcebridge.com/ws/ResourceBridgeAPI/api/Agencies` |
 
-A GitHub Actions workflow ([`.github/workflows/snapshot.yml`](.github/workflows/snapshot.yml)) runs [`logger/snapshot.py`](logger/snapshot.py) on a `*/15 * * * *` schedule and commits the raw JSON, gzipped, to `snapshots/<source>/YYYY/MM/DD/<UTC timestamp>.json.gz` (the first few snapshots from 2026-11-19 are plain `.json`).
+A GitHub Actions workflow ([`.github/workflows/snapshot.yml`](.github/workflows/snapshot.yml)) runs [`logger/snapshot.py`](logger/snapshot.py) on a 15-minute schedule (`7,22,37,52 * * * *`) and commits the raw JSON, gzipped, to `snapshots/<source>/YYYY/MM/DD/<UTC timestamp>.json.gz` (the first few snapshots from 2026-11-19 are plain `.json`).
 
 ## What each snapshot contains
 
