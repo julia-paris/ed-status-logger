@@ -28,7 +28,7 @@ python3 logger/build_tables.py   # -> tables/*.csv
 
 `build_tables.py` flattens all snapshots into `tables/maryland_hospital_status.csv`, `tables/maryland_units.csv`, `tables/newyork_ed_status.csv`, `tables/georgia_status.csv`, `tables/georgia_beds.csv` and `tables/georgia_specialties.csv` (git-ignored; regenerate any time).
 
-## Historical backfill (Maryland only)
+## Historical backfill: Maryland
 
 The EDAS reports site (https://edas.miemss.org/reports) exposes history from August 2025 onward. Pulled once into `history/maryland/`:
 
@@ -38,6 +38,14 @@ The EDAS reports site (https://edas.miemss.org/reports) exposes history from Aug
 Scripts: `history/maryland/scripts/` (`edas_pull.py all`, `edas_level4_daily.py [start] [end]`, re-runnable and resumable).
 
 New York and Georgia have no public history; the snapshots here are the only record.
+
+## Orange County, CA (event log)
+
+`history/orange_county/oc_diversion_events.csv` — every diversion recorded in ReddiNet for Orange County's 26 Emergency Receiving Centers, Dec 31 2016 onward: facility, category (ED, Cardiac, Neuro, Trauma, CT, INT, Helipad), start and end time (Pacific local time, no timezone stored), duration in minutes, authorizing staff, operator, and comments. Downloaded from the data model behind the county's public Power BI "Diversion Dashboard" (https://www.ochealthinfo.com/providers-partners/emergency-medical-services/ems-system-reports/health-care-facilities) by `history/orange_county/scripts/oc_diversion_events.py`. Monthly hospital totals match the county's PDF diversion reports.
+
+A weekly workflow ([`.github/workflows/orange-county.yml`](.github/workflows/orange-county.yml), Mondays) re-downloads the table and commits it if anything changed; git history keeps each earlier version.
+
+Caveats: event counts rise sharply from 2022–2023, partly because Cardiac and Neuro diversions are logged alongside ED diversions ("Caused by ED Diversion"); a few events have implausibly long durations (up to ~58 days); events identical in every field would be collapsed into one row.
 
 ## Caveats
 
