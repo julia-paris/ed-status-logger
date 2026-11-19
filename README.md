@@ -8,7 +8,7 @@ Archives three public emergency-department status dashboards every 15 minutes, b
 | New York ED Status (Juvare) | https://nydiverts.juvare.com/ | `nydiverts.juvare.com.json` |
 | Georgia Coordinating Center (ImageTrend) | https://georgiarcc.org/ | `georgiarcc.imagetrendresourcebridge.com/ws/ResourceBridgeAPI/api/Agencies` |
 
-A GitHub Actions workflow ([`.github/workflows/snapshot.yml`](.github/workflows/snapshot.yml)) runs [`logger/snapshot.py`](logger/snapshot.py) on a 15-minute schedule (`7,22,37,52 * * * *`) and commits the raw JSON, gzipped, to `snapshots/<source>/YYYY/MM/DD/<UTC timestamp>.json.gz` (the first few snapshots from 2026-11-19 are plain `.json`).
+A GitHub Actions workflow ([`.github/workflows/snapshot.yml`](.github/workflows/snapshot.yml)) runs [`logger/snapshot.py`](logger/snapshot.py) every 15 minutes (on the quarter hour) and commits the raw JSON, gzipped, to `snapshots/<source>/YYYY/MM/DD/<UTC timestamp>.json.gz` (the first few snapshots from 2026-11-19 are plain `.json`).
 
 ## What each snapshot contains
 
@@ -58,7 +58,7 @@ Caveats: event counts rise sharply from 2022–2023, partly because Cardiac and 
 
 ## Caveats
 
-- Scheduled runs can be delayed several minutes, or occasionally skipped, at GitHub's busy times. Use `fetched_at_utc` in each file, not the file's position.
-- GitHub disables schedules in repos with no activity for 60 days; the workflow's own commits normally count as activity, but check the Actions tab if snapshots stop.
+- GitHub's cron scheduler never fired for this repo in its first hours, so the snapshot workflow doesn't depend on it: each run loops for ~5h40m taking a snapshot every quarter hour, then starts the next run itself. A cron entry every 3 hours only restarts the chain if it breaks. Expect a gap of a few minutes at each hand-off; use `fetched_at_utc` in each file rather than assuming exact spacing.
+- If snapshots stop, check the Actions tab and start the `snapshot` workflow by hand (`gh workflow run snapshot.yml`).
 - If one site is down, the others are still saved; the run only fails if all are down.
 - Growth: roughly 6 MB/day (~2 GB/year), mostly Georgia.

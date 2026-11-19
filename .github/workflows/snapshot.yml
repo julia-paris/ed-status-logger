@@ -1,23 +1,33 @@
 name: snapshot
 
+# Takes a snapshot of every dashboard every 15 minutes.
+#
+# GitHub's cron scheduler proved unreliable for this repo (no scheduled runs
+# fired for hours), so each run is a loop: it takes a snapshot at every
+# quarter hour for ~5h40m, then starts the next run itself via
+# workflow_dispatch (allowed with GITHUB_TOKEN). The cron entry is kept only
+# as a fallback to restart the chain if it ever breaks.
+#
+# Only one loop runs at a time: extra runs wait in the concurrency queue, and
+# GitHub keeps at most one waiting run, replacing older ones.
+
 on:
   schedule:
-    # Every 15 minutes, offset from :00/:15/:30/:45 because GitHub delays or
-    # drops scheduled runs most often at those busy minutes.
-    - cron: "7,22,37,52 * * * *"
+    - cron: "7 */3 * * *"   # fallback restarter only
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
-  group: snapshot
+  group: snapshot-loop
   cancel-in-progress: false
 
 jobs:
   snapshot:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 355
     steps:
       # Only check out the code, not the ever-growing snapshots/ folder.
       - uses: actions/checkout@v4
@@ -28,19 +38,29 @@ jobs:
             .github
           sparse-checkout-cone-mode: true
 
-      - name: Fetch dashboards
-        run: python3 logger/snapshot.py
-
-      - name: Commit snapshot
+      - name: Snapshot every 15 minutes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --sparse snapshots
-          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
-          git commit -q -m "snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3 4 5; do
-            git push && exit 0
-            git pull --rebase -q && continue
-            sleep $((i * 5))
+          end=$(( $(date +%s) + 340*60 ))
+          while :; do
+            python3 logger/snapshot.py || echo "snapshot failed"
+            git add --sparse snapshots
+            if ! git diff --cached --quiet; then
+              git commit -q -m "snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+              for i in 1 2 3 4 5; do
+                git pull --rebase -q && git push -q && break
+                sleep $((i * 5))
+              done
+            fi
+            now=$(date +%s)
+            next=$(( (now / 900 + 1) * 900 ))   # next quarter hour
+            [ "$next" -ge "$end" ] && break
+            sleep $(( next - now ))
           done
-          exit 1
+
+      - name: Start the next run
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run snapshot.yml --repo "$GITHUB_REPOSITORY" --ref main
