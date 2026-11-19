@@ -1,0 +1,45 @@
+name: snapshot
+
+on:
+  schedule:
+    # Every 15 minutes (UTC). GitHub may start scheduled runs a few minutes late.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Only check out the code, not the ever-growing snapshots/ folder.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            logger
+            .github
+          sparse-checkout-cone-mode: true
+
+      - name: Fetch dashboards
+        run: python3 logger/snapshot.py
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse snapshots
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            git pull --rebase -q && continue
+            sleep $((i * 5))
+          done
+          exit 1

@@ -1,0 +1,1687 @@
+{
+ "fetched_at_utc": "2026-11-19T20:03:03+00:00",
+ "url": "https://nydiverts.juvare.com/nydiverts.juvare.com.json",
+ "data": {
+  "updateDateTime": "2026-11-19T20:02:57.505833Z",
+  "title": "New York Emergency Department Status",
+  "type": "edstatus",
+  "statuses": [
+   {
+    "comments": "",
+    "county": "Bronx",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "VA: James J. Peters",
+    "colorCode": "black",
+    "id": "199243"
+   },
+   {
+    "comments": "",
+    "county": "Sullivan",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Garnet Health Medical Center Catskills (0971)",
+    "colorCode": "black",
+    "id": "196596"
+   },
+   {
+    "county": "Orange",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "St. Anthony Community Hospital (0704)",
+    "colorCode": "black",
+    "id": "196777"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "SJRH: St. John's Division (1097)",
+    "colorCode": "black",
+    "id": "196775"
+   },
+   {
+    "county": "Rockland",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Montefiore: Nyack (0776)",
+    "colorCode": "black",
+    "id": "196732"
+   },
+   {
+    "county": "New York",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "VA: Margaret Cochran Corbin",
+    "colorCode": "black",
+    "id": "199244"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Westchester MC (1139)",
+    "colorCode": "black",
+    "id": "196803"
+   },
+   {
+    "county": "Kings",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "VA: Brooklyn VA Medical Center",
+    "colorCode": "black",
+    "id": "199245"
+   },
+   {
+    "county": "Albany",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "VA: Albany Stratton",
+    "colorCode": "black",
+    "id": "199242"
+   },
+   {
+    "county": "Suffolk",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Stony Brook: University Hospital (0245)",
+    "colorCode": "black",
+    "id": "196789"
+   },
+   {
+    "county": "Suffolk",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Stony Brook: Southampton Hospital (0889)",
+    "colorCode": "black",
+    "id": "196788"
+   },
+   {
+    "county": "Suffolk",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "St. Charles Hospital (0896)",
+    "colorCode": "black",
+    "id": "196781"
+   },
+   {
+    "county": "Suffolk",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Huntington Hospital (0913)",
+    "colorCode": "black",
+    "id": "196703"
+   },
+   {
+    "county": "Rockland",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Good Samaritan Suffern (0779)",
+    "colorCode": "black",
+    "id": "196599"
+   },
+   {
+    "county": "Suffolk",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Good Samaritan Medical Center (0925)",
+    "colorCode": "black",
+    "id": "196598"
+   },
+   {
+    "county": "Nassau",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "St. Francis Hospital (0563)",
+    "colorCode": "black",
+    "id": "196780"
+   },
+   {
+    "county": "Nassau",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "South Nassau Community: FSED (9691)",
+    "edStatusReason": "Not Reporting ED Status",
+    "colorCode": "black",
+    "id": "196636"
+   },
+   {
+    "county": "Dutchess",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Northern Dutchess Hospital (0192)",
+    "colorCode": "black",
+    "id": "196745"
+   },
+   {
+    "county": "Dutchess",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Mid-Hudson Valley Hospital (0180)",
+    "colorCode": "black",
+    "id": "196608"
+   },
+   {
+    "county": "Sullivan",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Garnet Health Medical Center Hermann (0968)",
+    "colorCode": "black",
+    "id": "196597"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "White Plains Hospital Center (1045)",
+    "colorCode": "black",
+    "id": "196805"
+   },
+   {
+    "county": "Orange",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "St. Luke's Cornwall: Newburgh (0694)",
+    "colorCode": "black",
+    "id": "196638"
+   },
+   {
+    "county": "Chemung",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "St. Joseph's Hospital (0118)",
+    "colorCode": "black",
+    "id": "196784"
+   },
+   {
+    "county": "Suffolk",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "NYU Langone - Suffolk (0885)",
+    "colorCode": "black",
+    "id": "196715"
+   },
+   {
+    "county": "Ulster",
+    "edStatus": "ED NOT REPORTING",
+    "resourceName": "Ellenville Regional Hospital (1002)",
+    "colorCode": "black",
+    "id": "196686"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Mount Sinai Behavioral Health Center (15437)",
+    "colorCode": "black",
+    "id": "218691"
+   },
+   {
+    "county": "Richmond",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Richmond University: Bayley Seton (1473)",
+    "colorCode": "black",
+    "id": "196766"
+   },
+   {
+    "county": "New York",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "NYP: Koch Center (10139)",
+    "colorCode": "black",
+    "id": "196619"
+   },
+   {
+    "county": "Schenectady",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Sunnyview Hospital and Rehab Ctr. (0831)",
+    "colorCode": "black",
+    "id": "196646"
+   },
+   {
+    "county": "Albany",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Albany Medical Center South Campus (0002)",
+    "colorCode": "black",
+    "id": "196589"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "SJRH: Park Care Pavilion (1099)",
+    "colorCode": "black",
+    "id": "196774"
+   },
+   {
+    "county": "New York",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Rockefeller University Hospital (1465)",
+    "colorCode": "black",
+    "id": "196763"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "NYP: Westchester BHC (1047)",
+    "colorCode": "black",
+    "id": "196624"
+   },
+   {
+    "county": "New York",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "NYU Langone: Orthopedic Hospital (1446)",
+    "colorCode": "black",
+    "id": "196751"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Blythedale Children's Hospital (1138)",
+    "colorCode": "black",
+    "id": "196662"
+   },
+   {
+    "county": "Rockland",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Helen Hayes Hospital (0775)",
+    "colorCode": "black",
+    "id": "196700"
+   },
+   {
+    "county": "New York",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Hospital for Special Surgery (1447)",
+    "colorCode": "black",
+    "id": "196702"
+   },
+   {
+    "county": "New York",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "David H. Koch Cancer Center (10355)",
+    "colorCode": "black",
+    "id": "196593"
+   },
+   {
+    "county": "Rensselaer",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Samaritan: St. Mary's Hospital (0755)",
+    "colorCode": "black",
+    "id": "196633"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Winifred Masterson Burke Rehab (1046)",
+    "colorCode": "black",
+    "id": "196654"
+   },
+   {
+    "comments": "",
+    "county": "Chautauqua",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "UPMC: Chautauqua at WCA (0102)",
+    "colorCode": "black",
+    "id": "196799"
+   },
+   {
+    "comments": "",
+    "county": "Monroe",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Unity Specialty Hospital (0412)",
+    "colorCode": "black",
+    "id": "196647"
+   },
+   {
+    "comments": "",
+    "county": "Genesee",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "United Memorial MC: Bank St. (0340)",
+    "colorCode": "black",
+    "id": "196651"
+   },
+   {
+    "county": "Albany",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "St. Peter's Addiction Recovery (9431)",
+    "colorCode": "black",
+    "id": "196642"
+   },
+   {
+    "comments": "",
+    "county": "Montgomery",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "St. Mary's: Amsterdam Memorial (0482)",
+    "colorCode": "black",
+    "id": "196641"
+   },
+   {
+    "comments": "",
+    "county": "Erie",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Roswell Park Cancer Institute (0216)",
+    "colorCode": "black",
+    "id": "196765"
+   },
+   {
+    "county": "New York",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Mount Sinai: NY Eye & Ear (1460)",
+    "colorCode": "black",
+    "id": "196618"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Memorial Hospital for Cancer (1453)",
+    "colorCode": "black",
+    "id": "196607"
+   },
+   {
+    "county": "New York",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Henry J. Carter Specialty Hospital (1486)",
+    "colorCode": "black",
+    "id": "196602"
+   },
+   {
+    "comments": "",
+    "county": "Schenectady",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Ellis Hospital Bellevue Woman's (0848)",
+    "colorCode": "black",
+    "id": "196595"
+   },
+   {
+    "comments": "",
+    "county": "Allegany",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Cuba Memorial Hospital (0037)",
+    "colorCode": "black",
+    "id": "196683"
+   },
+   {
+    "county": "Bronx",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Calvary Hospital (1175)",
+    "colorCode": "black",
+    "id": "196670"
+   },
+   {
+    "county": "Kings",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Calvary Hospital (10223)",
+    "colorCode": "black",
+    "id": "196669"
+   },
+   {
+    "comments": "",
+    "county": "Onondaga",
+    "edStatus": "NO EMERGENCY DEPT.",
+    "resourceName": "Crouse Commonwealth Division (9059)",
+    "colorCode": "black",
+    "id": "196592"
+   },
+   {
+    "comments": "",
+    "county": "Richmond",
+    "edStatus": "ED DIVERSION",
+    "resourceName": "Staten Island University: South (1737)",
+    "edStatusReason": "DIVERT: ADULT PSYCHIATRIC,DIVERT: PEDIATRIC PSYCHIATRIC",
+    "colorCode": "red",
+    "id": "196644"
+   },
+   {
+    "comments": "",
+    "county": "Richmond",
+    "edStatus": "ED DIVERSION",
+    "resourceName": "Staten Island University: North (1740)",
+    "edStatusReason": "DIVERT: PEDIATRIC PSYCHIATRIC",
+    "colorCode": "red",
+    "id": "196643"
+   },
+   {
+    "comments": "",
+    "county": "Nassau",
+    "edStatus": "ED DIVERSION",
+    "resourceName": "Long Island Jewish MC (1630)",
+    "edStatusReason": "DIVERT: CRITICAL ADULT",
+    "colorCode": "red",
+    "id": "196717"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "St. Lawrence",
+    "edStatus": "ED OPEN",
+    "resourceName": "Claxton Hepburn Medical Center (15684)",
+    "colorCode": "green",
+    "id": "222424"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mount Sinai: Brooklyn (1324)",
+    "colorCode": "green",
+    "id": "196734"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "Lincoln Medical & Mental Health (1172)",
+    "colorCode": "green",
+    "id": "196606"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Richmond",
+    "edStatus": "ED OPEN",
+    "resourceName": "Richmond University MC (1738)",
+    "colorCode": "green",
+    "id": "196631"
+   },
+   {
+    "comments": "",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "BronxCare Center Concourse (1178)",
+    "colorCode": "green",
+    "id": "196665"
+   },
+   {
+    "comments": "",
+    "county": "Jefferson",
+    "edStatus": "ED OPEN",
+    "resourceName": "River Hospital (0377)",
+    "colorCode": "green",
+    "id": "196761"
+   },
+   {
+    "comments": "",
+    "county": "Monroe",
+    "edStatus": "ED OPEN",
+    "resourceName": "Unity Hospital: Rochester (0471)",
+    "colorCode": "green",
+    "id": "196793"
+   },
+   {
+    "comments": "",
+    "county": "Jefferson",
+    "edStatus": "ED OPEN",
+    "resourceName": "Samaritan MC (0367)",
+    "colorCode": "green",
+    "id": "196768"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYP: Allen Hospital (3975)",
+    "colorCode": "green",
+    "id": "196620"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mount Sinai: Morningside (1469)",
+    "colorCode": "green",
+    "id": "196736"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Kings County Hospital Center (1301)",
+    "colorCode": "green",
+    "id": "196709"
+   },
+   {
+    "comments": "",
+    "county": "Queens",
+    "edStatus": "ED OPEN",
+    "resourceName": "Elmhurst Hospital Center (1626)",
+    "colorCode": "green",
+    "id": "196688"
+   },
+   {
+    "comments": "Off advisory/diversion as of 17:00",
+    "county": "Lewis",
+    "edStatus": "ED OPEN",
+    "resourceName": "Lewis County General Hospital (0383)",
+    "colorCode": "green",
+    "id": "196713"
+   },
+   {
+    "comments": "",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "Jacobi Medical Center (1165)",
+    "colorCode": "green",
+    "id": "196706"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYP: Lower Manhattan (1437)",
+    "colorCode": "green",
+    "id": "196626"
+   },
+   {
+    "comments": "",
+    "county": "Cortland",
+    "edStatus": "ED OPEN",
+    "resourceName": "Guthrie Cortland Medical Center (0158)",
+    "colorCode": "green",
+    "id": "196698"
+   },
+   {
+    "comments": "",
+    "county": "Queens",
+    "edStatus": "ED OPEN",
+    "resourceName": "Long Island Jewish: Forest Hills (1638)",
+    "colorCode": "green",
+    "id": "196716"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Brookdale Hospital Medical Center (1286)",
+    "colorCode": "green",
+    "id": "196666"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYP: Columbia Center (1464)",
+    "colorCode": "green",
+    "id": "196621"
+   },
+   {
+    "comments": "",
+    "county": "Albany",
+    "edStatus": "ED OPEN",
+    "resourceName": "Samaritan: Albany Memorial (0004)",
+    "colorCode": "green",
+    "id": "196632"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Dutchess",
+    "edStatus": "ED OPEN",
+    "resourceName": "Vassar Brothers MC (0181)",
+    "colorCode": "green",
+    "id": "196802"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Maimonides MC (1305)",
+    "colorCode": "green",
+    "id": "196719"
+   },
+   {
+    "comments": "",
+    "county": "Westchester",
+    "edStatus": "ED OPEN",
+    "resourceName": "Montefiore: Mount Vernon Hospital (1061)",
+    "colorCode": "green",
+    "id": "196730"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Jefferson",
+    "edStatus": "ED OPEN",
+    "resourceName": "Carthage Area Hospital (0379)",
+    "colorCode": "green",
+    "id": "196672"
+   },
+   {
+    "comments": "",
+    "county": "Ontario",
+    "edStatus": "ED OPEN",
+    "resourceName": "Clifton Springs Hospital & Clinic (0676)",
+    "colorCode": "green",
+    "id": "196591"
+   },
+   {
+    "comments": "",
+    "county": "Queens",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYP: Queens (1637)",
+    "colorCode": "green",
+    "id": "196742"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Albany",
+    "edStatus": "ED OPEN",
+    "resourceName": "St. Peter's Hospital (0005)",
+    "colorCode": "green",
+    "id": "196787"
+   },
+   {
+    "comments": "",
+    "county": "Wayne",
+    "edStatus": "ED OPEN",
+    "resourceName": "Newark-Wayne Community Hospital (1028)",
+    "colorCode": "green",
+    "id": "196741"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Woodhull Medical & Mental Health (1692)",
+    "colorCode": "green",
+    "id": "196655"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Monroe",
+    "edStatus": "ED OPEN",
+    "resourceName": "Strong Memorial Hospital (0413)",
+    "colorCode": "green",
+    "id": "196790"
+   },
+   {
+    "comments": "",
+    "county": "Westchester",
+    "edStatus": "ED OPEN",
+    "resourceName": "St. Joseph's MC (1098)",
+    "colorCode": "green",
+    "id": "196785"
+   },
+   {
+    "comments": "",
+    "county": "Queens",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mount Sinai Hospital of Queens (1639)",
+    "colorCode": "green",
+    "id": "196615"
+   },
+   {
+    "comments": "",
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mercy MC (0513)",
+    "colorCode": "green",
+    "id": "196727"
+   },
+   {
+    "comments": "",
+    "county": "Queens",
+    "edStatus": "ED OPEN",
+    "resourceName": "Queens Hospital Center (1633)",
+    "colorCode": "green",
+    "id": "196760"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYP: Brooklyn Methodist (1306)",
+    "colorCode": "green",
+    "id": "196627"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "North Shore University Hospital (0541)",
+    "colorCode": "green",
+    "id": "196744"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Steuben",
+    "edStatus": "ED OPEN",
+    "resourceName": "Corning Hospital (0866)",
+    "colorCode": "green",
+    "id": "196681"
+   },
+   {
+    "comments": "",
+    "county": "Orange",
+    "edStatus": "ED OPEN",
+    "resourceName": "Bon Secours Community Hospital (0708)",
+    "colorCode": "green",
+    "id": "196663"
+   },
+   {
+    "comments": "",
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "Long Island Jewish: Valley Stream (0518)",
+    "colorCode": "green",
+    "id": "196718"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Onondaga",
+    "edStatus": "ED OPEN",
+    "resourceName": "St. Joseph's Hospital Health Ctr. (0630)",
+    "colorCode": "green",
+    "id": "196639"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mount Sinai: West (1466)",
+    "colorCode": "green",
+    "id": "196738"
+   },
+   {
+    "comments": "",
+    "county": "Madison",
+    "edStatus": "ED OPEN",
+    "resourceName": "Community Memorial Hospital (0401)",
+    "colorCode": "green",
+    "id": "196679"
+   },
+   {
+    "comments": "",
+    "county": "Queens",
+    "edStatus": "ED OPEN",
+    "resourceName": "Jamaica Hospital Medical Center (1629)",
+    "colorCode": "green",
+    "id": "196707"
+   },
+   {
+    "comments": "",
+    "county": "Queens",
+    "edStatus": "ED OPEN",
+    "resourceName": "St. John's Episcopal: South Shore (1635)",
+    "colorCode": "green",
+    "id": "196637"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Rensselaer",
+    "edStatus": "ED OPEN",
+    "resourceName": "Samaritan Hospital (0756)",
+    "colorCode": "green",
+    "id": "196767"
+   },
+   {
+    "comments": "",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "North Central Bronx Hospital (1186)",
+    "colorCode": "green",
+    "id": "196743"
+   },
+   {
+    "comments": "",
+    "county": "Oswego",
+    "edStatus": "ED OPEN",
+    "resourceName": "Oswego Hospital (0727)",
+    "colorCode": "green",
+    "id": "196755"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mount Sinai Hospital (1456)",
+    "colorCode": "green",
+    "id": "196735"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "Harlem Hospital Center (1445)",
+    "colorCode": "green",
+    "id": "196699"
+   },
+   {
+    "comments": "",
+    "county": "Cattaraugus",
+    "edStatus": "ED OPEN",
+    "resourceName": "Olean General Hospital (0066)",
+    "colorCode": "green",
+    "id": "196753"
+   },
+   {
+    "comments": "",
+    "county": "Westchester",
+    "edStatus": "ED OPEN",
+    "resourceName": "St. Joseph's MC: St. Vincent's (1133)",
+    "colorCode": "green",
+    "id": "196640"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYP: Weill Cornell MC (1458)",
+    "colorCode": "green",
+    "id": "196622"
+   },
+   {
+    "comments": "",
+    "county": "Tompkins",
+    "edStatus": "ED OPEN",
+    "resourceName": "Cayuga Medical Center Ithaca (0977)",
+    "colorCode": "green",
+    "id": "196673"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Maimonides Midwood Community (1293)",
+    "colorCode": "green",
+    "id": "196617"
+   },
+   {
+    "comments": "",
+    "county": "Fulton",
+    "edStatus": "ED OPEN",
+    "resourceName": "Nathan Littauer Hospital (0330)",
+    "colorCode": "green",
+    "id": "196740"
+   },
+   {
+    "comments": "",
+    "county": "Broome",
+    "edStatus": "ED OPEN",
+    "resourceName": "Guthrie Lourdes Hospital (0043)",
+    "colorCode": "green",
+    "id": "196630"
+   },
+   {
+    "comments": "",
+    "county": "Herkimer",
+    "edStatus": "ED OPEN",
+    "resourceName": "Little Falls Hospital (0362)",
+    "colorCode": "green",
+    "id": "196714"
+   },
+   {
+    "comments": "advised via phone No Critical Area for pt care impacted",
+    "county": "Suffolk",
+    "edStatus": "ED OPEN",
+    "resourceName": "Peconic Bay MC (0938)",
+    "colorCode": "green",
+    "id": "196756"
+   },
+   {
+    "comments": "",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "SBH Health System (1176)",
+    "colorCode": "green",
+    "id": "196770"
+   },
+   {
+    "comments": "",
+    "county": "St. Lawrence",
+    "edStatus": "ED OPEN",
+    "resourceName": "Gouverneur Hospital (0812)",
+    "colorCode": "green",
+    "id": "196697"
+   },
+   {
+    "comments": "",
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "St. Joseph Hospital (0551)",
+    "colorCode": "green",
+    "id": "196783"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "Bellevue Hospital Center (1438)",
+    "colorCode": "green",
+    "id": "196660"
+   },
+   {
+    "comments": "",
+    "county": "Steuben",
+    "edStatus": "ED OPEN",
+    "resourceName": "Ira Davenport Memorial (0873)",
+    "colorCode": "green",
+    "id": "196705"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Brooklyn Center Downtown (1288)",
+    "colorCode": "green",
+    "id": "196590"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Coney Island Hospital (1294)",
+    "colorCode": "green",
+    "id": "196680"
+   },
+   {
+    "comments": "",
+    "county": "Schuyler",
+    "edStatus": "ED OPEN",
+    "resourceName": "Schuyler Hospital (0858)",
+    "colorCode": "green",
+    "id": "196771"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Madison",
+    "edStatus": "ED OPEN",
+    "resourceName": "Oneida Health Hospital (0397)",
+    "colorCode": "green",
+    "id": "196754"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "Lenox Hill Hospital (1450)",
+    "colorCode": "green",
+    "id": "196712"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Interfaith Medical Center (1309)",
+    "colorCode": "green",
+    "id": "196704"
+   },
+   {
+    "comments": "",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "Montefiore MC: Westchester Square (1185)",
+    "colorCode": "green",
+    "id": "196613"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "University: SUNY Downstate (1320)",
+    "colorCode": "green",
+    "id": "196797"
+   },
+   {
+    "comments": "",
+    "county": "Schenectady",
+    "edStatus": "ED OPEN",
+    "resourceName": "Ellis Hospital (0829)",
+    "colorCode": "green",
+    "id": "196687"
+   },
+   {
+    "comments": "",
+    "county": "Oneida",
+    "edStatus": "ED OPEN",
+    "resourceName": "Rome Memorial Hospital (0589)",
+    "colorCode": "green",
+    "id": "196764"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "St. Lawrence",
+    "edStatus": "ED OPEN",
+    "resourceName": "Claxton Hepburn Medical Center (0798)",
+    "colorCode": "green",
+    "id": "196675"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Columbia",
+    "edStatus": "ED OPEN",
+    "resourceName": "Columbia Memorial Hospital (0146)",
+    "colorCode": "green",
+    "id": "196678"
+   },
+   {
+    "comments": "diversion lifted - any questions please call medical control",
+    "county": "Monroe",
+    "edStatus": "ED OPEN",
+    "resourceName": "Rochester General Hospital (0411)",
+    "colorCode": "green",
+    "id": "196762"
+   },
+   {
+    "comments": "",
+    "county": "Orleans",
+    "edStatus": "ED OPEN",
+    "resourceName": "Medina Memorial Hospital (0718)",
+    "colorCode": "green",
+    "id": "196723"
+   },
+   {
+    "comments": "",
+    "county": "Chemung",
+    "edStatus": "ED OPEN",
+    "resourceName": "Arnot Ogden Medical Center (0116)",
+    "colorCode": "green",
+    "id": "196658"
+   },
+   {
+    "comments": "",
+    "county": "Wyoming",
+    "edStatus": "ED OPEN",
+    "resourceName": "Wyoming County Community Hospital (15620)",
+    "colorCode": "green",
+    "id": "196807"
+   },
+   {
+    "comments": "",
+    "county": "Schoharie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Cobleskill Regional Hospital (10216)",
+    "colorCode": "green",
+    "id": "196677"
+   },
+   {
+    "comments": "",
+    "county": "Montgomery",
+    "edStatus": "ED OPEN",
+    "resourceName": "St. Mary's Healthcare (0484)",
+    "colorCode": "green",
+    "id": "196786"
+   },
+   {
+    "comments": "Scheduled Maintenance completed",
+    "county": "St. Lawrence",
+    "edStatus": "ED OPEN",
+    "resourceName": "Massena Hospital (0804)",
+    "colorCode": "green",
+    "id": "196722"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "Wyckoff Heights MC (1318)",
+    "colorCode": "green",
+    "id": "196806"
+   },
+   {
+    "comments": "",
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mount Sinai: South Nassau (0527)",
+    "colorCode": "green",
+    "id": "196737"
+   },
+   {
+    "comments": "",
+    "county": "St. Lawrence",
+    "edStatus": "ED OPEN",
+    "resourceName": "Canton Potsdam Hospital (0815)",
+    "colorCode": "green",
+    "id": "196671"
+   },
+   {
+    "comments": "",
+    "county": "Onondaga",
+    "edStatus": "ED OPEN",
+    "resourceName": "Upstate: Community Hospital (0628)",
+    "colorCode": "green",
+    "id": "196653"
+   },
+   {
+    "comments": "",
+    "county": "Onondaga",
+    "edStatus": "ED OPEN",
+    "resourceName": "Upstate: University Hospital (0635)",
+    "colorCode": "green",
+    "id": "196798"
+   },
+   {
+    "comments": "",
+    "county": "Broome",
+    "edStatus": "ED OPEN",
+    "resourceName": "UHS: Wilson Medical Center (0058)",
+    "colorCode": "green",
+    "id": "196796"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "Montefiore MC: Henry & Lucy Moses (1169)",
+    "colorCode": "green",
+    "id": "196612"
+   },
+   {
+    "comments": "",
+    "county": "Saratoga",
+    "edStatus": "ED OPEN",
+    "resourceName": "Saratoga Hospital (0818)",
+    "colorCode": "green",
+    "id": "196769"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "BronxCare Center Fulton Mandy (1164)",
+    "colorCode": "green",
+    "id": "196664"
+   },
+   {
+    "county": "Chautauqua",
+    "edStatus": "ED OPEN",
+    "resourceName": "Brooks TLC Hospital (0098)",
+    "colorCode": "green",
+    "id": "196667"
+   },
+   {
+    "comments": "",
+    "county": "Chenango",
+    "edStatus": "ED OPEN",
+    "resourceName": "Chenango Memorial Hospital (0128)",
+    "colorCode": "green",
+    "id": "196674"
+   },
+   {
+    "county": "Onondaga",
+    "edStatus": "ED OPEN",
+    "resourceName": "VA: Syracuse VA Medical Ctr.",
+    "colorCode": "green",
+    "id": "211595"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "Lenox Health Greenwich Village (9700)",
+    "colorCode": "green",
+    "id": "196711"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Delaware",
+    "edStatus": "ED OPEN",
+    "resourceName": "O'Connor Hospital (0165)",
+    "colorCode": "green",
+    "id": "196752"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYU Langone: Tisch (1463)",
+    "colorCode": "green",
+    "id": "196750"
+   },
+   {
+    "comments": "",
+    "county": "Suffolk",
+    "edStatus": "ED OPEN",
+    "resourceName": "Stony Brook: Eastern Long Island (0891)",
+    "colorCode": "green",
+    "id": "196645"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Yates",
+    "edStatus": "ED OPEN",
+    "resourceName": "Soldiers and Sailors Mem Hospital (1158)",
+    "colorCode": "green",
+    "id": "196635"
+   },
+   {
+    "comments": "",
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Bertrand Chaffee Hospital (0280)",
+    "colorCode": "green",
+    "id": "196661"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "Glen Cove Hospital (0490)",
+    "colorCode": "green",
+    "id": "196695"
+   },
+   {
+    "comments": "",
+    "county": "Allegany",
+    "edStatus": "ED OPEN",
+    "resourceName": "Jones Memorial Hospital (0039)",
+    "colorCode": "green",
+    "id": "196724"
+   },
+   {
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Sisters of Charity: St. Joseph (0292)",
+    "colorCode": "green",
+    "id": "196634"
+   },
+   {
+    "county": "Delaware",
+    "edStatus": "ED OPEN",
+    "resourceName": "Margaretville Hospital (0170)",
+    "colorCode": "green",
+    "id": "196720"
+   },
+   {
+    "comments": "",
+    "county": "Niagara",
+    "edStatus": "ED OPEN",
+    "resourceName": "Degraff Memorial Hospital (0581)",
+    "colorCode": "green",
+    "id": "196684"
+   },
+   {
+    "comments": "CT Scan scanner functional",
+    "county": "Otsego",
+    "edStatus": "ED OPEN",
+    "resourceName": "A.O. Fox Memorial Hospital (0739)",
+    "colorCode": "green",
+    "id": "196656"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYU Langone: Cobble Hill (9753)",
+    "colorCode": "green",
+    "id": "196747"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "ED OPEN",
+    "resourceName": "SJRH: Dobbs Ferry Pavilion (1124)",
+    "colorCode": "green",
+    "id": "196773"
+   },
+   {
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "Plainview Hospital (0552)",
+    "colorCode": "green",
+    "id": "196758"
+   },
+   {
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYU Langone: Long Island (0511)",
+    "colorCode": "green",
+    "id": "196749"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Orange",
+    "edStatus": "ED OPEN",
+    "resourceName": "Garnet Health Medical Center (0699)",
+    "colorCode": "green",
+    "id": "196693"
+   },
+   {
+    "county": "Suffolk",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mather Hospital: Port Jefferson (0895)",
+    "colorCode": "green",
+    "id": "196604"
+   },
+   {
+    "county": "Ontario",
+    "edStatus": "ED OPEN",
+    "resourceName": "F.F. Thompson Hospital (0678)",
+    "colorCode": "green",
+    "id": "196690"
+   },
+   {
+    "county": "Franklin",
+    "edStatus": "ED OPEN",
+    "resourceName": "Adirondack Medical Center Saranac Lake (0324)",
+    "colorCode": "green",
+    "id": "196588"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Oswego",
+    "edStatus": "ED OPEN",
+    "resourceName": "Lakeview Mental Health & Wellness (0012)",
+    "colorCode": "green",
+    "id": "196605"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "ED OPEN",
+    "resourceName": "Northern Westchester Hospital (1117)",
+    "colorCode": "green",
+    "id": "196746"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYP: Hudson Valley (1039)",
+    "colorCode": "green",
+    "id": "196625"
+   },
+   {
+    "county": "Suffolk",
+    "edStatus": "ED OPEN",
+    "resourceName": "St. Catherine of Siena Hospital (0943)",
+    "colorCode": "green",
+    "id": "196778"
+   },
+   {
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "Syosset Hospital (0550)",
+    "colorCode": "green",
+    "id": "196791"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "ED OPEN",
+    "resourceName": "Phelps Hospital (1129)",
+    "colorCode": "green",
+    "id": "196757"
+   },
+   {
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mercy Hospital: Orchard Park Div. (1723)",
+    "colorCode": "green",
+    "id": "196725"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYP: Westchester (1122)",
+    "colorCode": "green",
+    "id": "196623"
+   },
+   {
+    "county": "Westchester",
+    "edStatus": "ED OPEN",
+    "resourceName": "Montefiore: New Rochelle Hospital (1072)",
+    "colorCode": "green",
+    "id": "196731"
+   },
+   {
+    "county": "Queens",
+    "edStatus": "ED OPEN",
+    "resourceName": "Flushing Hospital Medical Center (1628)",
+    "colorCode": "green",
+    "id": "196692"
+   },
+   {
+    "county": "Franklin",
+    "edStatus": "ED OPEN",
+    "resourceName": "UVM: Alice Hyde Medical Center (15485)",
+    "colorCode": "green",
+    "id": "196794"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "Montefiore MC: Weiler Hospital (3058)",
+    "colorCode": "green",
+    "id": "196611"
+   },
+   {
+    "county": "Broome",
+    "edStatus": "ED OPEN",
+    "resourceName": "UHS: Binghamton General Hospital (0042)",
+    "colorCode": "green",
+    "id": "196795"
+   },
+   {
+    "comments": "",
+    "county": "Delaware",
+    "edStatus": "ED OPEN",
+    "resourceName": "A.O. Fox Memorial Tri-Town (8554)",
+    "colorCode": "green",
+    "id": "196586"
+   },
+   {
+    "comments": "",
+    "county": "Ontario",
+    "edStatus": "ED OPEN",
+    "resourceName": "Geneva General Hospital (0671)",
+    "colorCode": "green",
+    "id": "196694"
+   },
+   {
+    "county": "Chautauqua",
+    "edStatus": "ED OPEN",
+    "resourceName": "Westfield Memorial Hospital (0111)",
+    "colorCode": "green",
+    "id": "196804"
+   },
+   {
+    "county": "Essex",
+    "edStatus": "ED OPEN",
+    "resourceName": "UVM: Ticonderoga Medical Village (0309)",
+    "colorCode": "green",
+    "id": "196650"
+   },
+   {
+    "county": "Essex",
+    "edStatus": "ED OPEN",
+    "resourceName": "UVM: Elizabethtown Community (0303)",
+    "colorCode": "green",
+    "id": "196649"
+   },
+   {
+    "county": "Clinton",
+    "edStatus": "ED OPEN",
+    "resourceName": "UVM: Champlain Valley (0135)",
+    "colorCode": "green",
+    "id": "196648"
+   },
+   {
+    "county": "Monroe",
+    "edStatus": "ED OPEN",
+    "resourceName": "URMC: Strong West (9531)",
+    "colorCode": "green",
+    "id": "196801"
+   },
+   {
+    "comments": "",
+    "county": "Genesee",
+    "edStatus": "ED OPEN",
+    "resourceName": "United Memorial MC: North St. (0339)",
+    "colorCode": "green",
+    "id": "196652"
+   },
+   {
+    "county": "Steuben",
+    "edStatus": "ED OPEN",
+    "resourceName": "St. James Hospital (0870)",
+    "colorCode": "green",
+    "id": "196782"
+   },
+   {
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Sisters of Charity Hospital (0218)",
+    "colorCode": "green",
+    "id": "196772"
+   },
+   {
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Golisano Children's Hospital of Buffalo (0208)",
+    "colorCode": "green",
+    "id": "196603"
+   },
+   {
+    "county": "Livingston",
+    "edStatus": "ED OPEN",
+    "resourceName": "Nicholas H. Noyes Memorial (0393)",
+    "colorCode": "green",
+    "id": "196629"
+   },
+   {
+    "county": "Niagara",
+    "edStatus": "ED OPEN",
+    "resourceName": "Niagara Falls Memorial MC (0574)",
+    "colorCode": "green",
+    "id": "196628"
+   },
+   {
+    "county": "Niagara",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mount St. Mary's Hospital (0583)",
+    "colorCode": "green",
+    "id": "196616"
+   },
+   {
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Millard Fillmore Hospital (3067)",
+    "colorCode": "green",
+    "id": "196609"
+   },
+   {
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mercy Hospital: Buffalo (0213)",
+    "colorCode": "green",
+    "id": "196726"
+   },
+   {
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Kenmore Mercy Hospital (0267)",
+    "colorCode": "green",
+    "id": "196708"
+   },
+   {
+    "county": "Monroe",
+    "edStatus": "ED OPEN",
+    "resourceName": "Highland Hospital (0409)",
+    "colorCode": "green",
+    "id": "196701"
+   },
+   {
+    "county": "Warren",
+    "edStatus": "ED OPEN",
+    "resourceName": "Glens Falls Hospital (1005)",
+    "colorCode": "green",
+    "id": "196696"
+   },
+   {
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Erie County Medical Center (0210)",
+    "colorCode": "green",
+    "id": "196689"
+   },
+   {
+    "county": "Delaware",
+    "edStatus": "ED OPEN",
+    "resourceName": "Delaware Valley Hospital (0174)",
+    "colorCode": "green",
+    "id": "196685"
+   },
+   {
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "Clifton Fine Hospital (0817)",
+    "colorCode": "green",
+    "id": "196676"
+   },
+   {
+    "county": "Cayuga",
+    "edStatus": "ED OPEN",
+    "resourceName": "Auburn Community Hospital (0085)",
+    "colorCode": "green",
+    "id": "196659"
+   },
+   {
+    "county": "Albany",
+    "edStatus": "ED OPEN",
+    "resourceName": "Albany Medical Center Hospital",
+    "colorCode": "green",
+    "id": "196657"
+   },
+   {
+    "county": "Ulster",
+    "edStatus": "ED OPEN",
+    "resourceName": "HealthAlliance Mary's Ave (0989)",
+    "colorCode": "green",
+    "id": "196601"
+   },
+   {
+    "comments": "",
+    "county": "Nassau",
+    "edStatus": "ED OPEN",
+    "resourceName": "Nassau University MC (0528)",
+    "colorCode": "green",
+    "id": "196739"
+   },
+   {
+    "comments": "",
+    "county": "Onondaga",
+    "edStatus": "ED OPEN",
+    "resourceName": "Crouse Hospital (0636)",
+    "colorCode": "green",
+    "id": "196682"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Bronx",
+    "edStatus": "ED OPEN",
+    "resourceName": "Montefiore MC: Wakefield Hospital (1168)",
+    "colorCode": "green",
+    "id": "196614"
+   },
+   {
+    "comments": "",
+    "county": "New York",
+    "edStatus": "ED OPEN",
+    "resourceName": "Metropolitan Hospital Center (1454)",
+    "colorCode": "green",
+    "id": "196728"
+   },
+   {
+    "comments": "",
+    "county": "Kings",
+    "edStatus": "ED OPEN",
+    "resourceName": "NYU Langone: Brooklyn (1304)",
+    "colorCode": "green",
+    "id": "196748"
+   },
+   {
+    "comments": "Auto Opened",
+    "county": "Oneida",
+    "edStatus": "ED OPEN",
+    "resourceName": "Wynn Hospital (15478)",
+    "colorCode": "green",
+    "id": "213474"
+   },
+   {
+    "comments": "",
+    "county": "Putnam",
+    "edStatus": "ED OPEN",
+    "resourceName": "Putnam Hospital (0752)",
+    "colorCode": "green",
+    "id": "196759"
+   },
+   {
+    "county": "Suffolk",
+    "edStatus": "ED OPEN",
+    "resourceName": "South Shore University Hospital (0924)",
+    "colorCode": "green",
+    "id": "196776"
+   },
+   {
+    "county": "Otsego",
+    "edStatus": "ED OPEN",
+    "resourceName": "Mary Imogene Bassett Hospital (0746)",
+    "colorCode": "green",
+    "id": "196721"
+   },
+   {
+    "county": "Chautauqua",
+    "edStatus": "ED OPEN",
+    "resourceName": "UPMC: Chautauqua at WCA (0103)",
+    "colorCode": "green",
+    "id": "196800"
+   },
+   {
+    "county": "Erie",
+    "edStatus": "ED OPEN",
+    "resourceName": "Buffalo General Medical Center (0207)",
+    "colorCode": "green",
+    "id": "196668"
+   }
+  ],
+  "statusTypes": []
+ }
+}

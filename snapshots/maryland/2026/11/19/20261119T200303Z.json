@@ -1,0 +1,2579 @@
+{
+ "fetched_at_utc": "2026-11-19T20:03:03+00:00",
+ "url": "https://edas.miemss.org/edas-services/api/cachedhospitalstatus",
+ "data": {
+  "totalResults": 38,
+  "totalUnits": 83,
+  "totalEnroute": 8,
+  "results": [
+   {
+    "destinationName": "Anne Arundel Medical Center - 221",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "002",
+     "029"
+    ],
+    "destinationCode": "221",
+    "numOfUnits": 4,
+    "minStay": 42,
+    "maxStay": 78,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.990364,
+    "lon": -76.535651,
+    "units": [
+     {
+      "destinationCode": "221",
+      "jurisdiction": "Anne Arundel County (002)",
+      "agencyName": "ANNE ARUNDEL COUNTY FIRE DEPT",
+      "unitCallSign": "MU03",
+      "lengthOfStay": 42,
+      "incidentNumber": "202689013",
+      "timeEnroute": 56,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "221",
+      "jurisdiction": "Anne Arundel County (002)",
+      "agencyName": "ANNE ARUNDEL COUNTY FIRE DEPT",
+      "unitCallSign": "MU17",
+      "lengthOfStay": 46,
+      "incidentNumber": "202689014",
+      "timeEnroute": 53,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "221",
+      "jurisdiction": "Anne Arundel County (002)",
+      "agencyName": "ANNE ARUNDEL COUNTY FIRE DEPT",
+      "unitCallSign": "MU02",
+      "lengthOfStay": 58,
+      "incidentNumber": "202689011",
+      "timeEnroute": 67,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "221",
+      "jurisdiction": "Annapolis City (029)",
+      "agencyName": "CITY OF ANNAPOLIS FIRE DEPT.",
+      "unitCallSign": "MU36",
+      "lengthOfStay": 78,
+      "incidentNumber": "202688997",
+      "timeEnroute": 87,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "221",
+     "red": null,
+     "yellow": null,
+     "reroute": "01:39",
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Baltimore Washington Medical Center - 222",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "002"
+    ],
+    "destinationCode": "222",
+    "numOfUnits": 4,
+    "minStay": 27,
+    "maxStay": 63,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.137784,
+    "lon": -76.621701,
+    "units": [
+     {
+      "destinationCode": "222",
+      "jurisdiction": "Anne Arundel County (002)",
+      "agencyName": "ANNE ARUNDEL COUNTY FIRE DEPT",
+      "unitCallSign": "MU05",
+      "lengthOfStay": 27,
+      "incidentNumber": "202689015",
+      "timeEnroute": 43,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "222",
+      "jurisdiction": "Anne Arundel County (002)",
+      "agencyName": "ANNE ARUNDEL COUNTY FIRE DEPT",
+      "unitCallSign": "A219",
+      "lengthOfStay": 34,
+      "incidentNumber": "202689016",
+      "timeEnroute": 44,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "222",
+      "jurisdiction": "Anne Arundel County (002)",
+      "agencyName": "ANNE ARUNDEL COUNTY FIRE DEPT",
+      "unitCallSign": "MU12",
+      "lengthOfStay": 41,
+      "incidentNumber": "202689012",
+      "timeEnroute": 56,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "222",
+      "jurisdiction": "Anne Arundel County (002)",
+      "agencyName": "ANNE ARUNDEL COUNTY FIRE DEPT",
+      "unitCallSign": "MU18B",
+      "lengthOfStay": 63,
+      "incidentNumber": "202689009",
+      "timeEnroute": 73,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "222",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Capital Region Medical Center (UMCRH) - 260",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "016"
+    ],
+    "destinationCode": "260",
+    "numOfUnits": 1,
+    "minStay": 4,
+    "maxStay": 4,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.898173,
+    "lon": -76.843043,
+    "units": [
+     {
+      "destinationCode": "260",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A806",
+      "lengthOfStay": 4,
+      "incidentNumber": "26111900000286",
+      "timeEnroute": 8,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "260",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 3,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Carroll Hospital Center (LifeBridge) - 219",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "006"
+    ],
+    "destinationCode": "219",
+    "numOfUnits": 3,
+    "minStay": 17,
+    "maxStay": 22,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.55875,
+    "lon": -76.989729,
+    "units": [
+     {
+      "destinationCode": "219",
+      "jurisdiction": "Carroll County (006)",
+      "agencyName": "CARROLL COUNTY EMERGENCY SERVICES",
+      "unitCallSign": "M49",
+      "lengthOfStay": 17,
+      "incidentNumber": "26022468",
+      "timeEnroute": 43,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "219",
+      "jurisdiction": "Carroll County (006)",
+      "agencyName": "CARROLL COUNTY EMERGENCY SERVICES",
+      "unitCallSign": "M29",
+      "lengthOfStay": 21,
+      "incidentNumber": "26022468",
+      "timeEnroute": 46,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "219",
+      "jurisdiction": "Carroll County (006)",
+      "agencyName": "CARROLL COUNTY EMERGENCY SERVICES",
+      "unitCallSign": "M139",
+      "lengthOfStay": 22,
+      "incidentNumber": "26022467",
+      "timeEnroute": 35,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "219",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Charles Regional (UM) - 291",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "008"
+    ],
+    "destinationCode": "291",
+    "numOfUnits": 1,
+    "minStay": 14,
+    "maxStay": 14,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.529295,
+    "lon": -76.972386,
+    "units": [
+     {
+      "destinationCode": "291",
+      "jurisdiction": "Charles County (008)",
+      "agencyName": "CHARLES COUNTY EMERGENCY MEDICAL SERVICES",
+      "unitCallSign": "PA78",
+      "lengthOfStay": 14,
+      "incidentNumber": "2629720",
+      "timeEnroute": 36,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "291",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Chestertown (UMSRH) - 296",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "014"
+    ],
+    "destinationCode": "296",
+    "numOfUnits": 1,
+    "minStay": 21,
+    "maxStay": 21,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.218578,
+    "lon": -76.064435,
+    "units": [
+     {
+      "destinationCode": "296",
+      "jurisdiction": "Kent County (014)",
+      "agencyName": "KENT COUNTY EMERGENCY SERVICES",
+      "unitCallSign": "A1",
+      "lengthOfStay": 21,
+      "incidentNumber": "26-017749",
+      "timeEnroute": 26,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "296",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Children's National Medical Center, DC - 317",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "016"
+    ],
+    "destinationCode": "317",
+    "numOfUnits": 1,
+    "minStay": 59,
+    "maxStay": 59,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.927203,
+    "lon": -77.014527,
+    "units": [
+     {
+      "destinationCode": "317",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "PA855",
+      "lengthOfStay": 59,
+      "incidentNumber": "26111900000260",
+      "timeEnroute": 72,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "317",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Doctors Community Medical Center (Luminis) - 329",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "016"
+    ],
+    "destinationCode": "329",
+    "numOfUnits": 4,
+    "minStay": 24,
+    "maxStay": 83,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.982327,
+    "lon": -76.86508,
+    "units": [
+     {
+      "destinationCode": "329",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "PA805",
+      "lengthOfStay": 24,
+      "incidentNumber": "26111900000274",
+      "timeEnroute": 39,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "329",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A830",
+      "lengthOfStay": 35,
+      "incidentNumber": "26111900000275",
+      "timeEnroute": 42,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "329",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A819",
+      "lengthOfStay": 44,
+      "incidentNumber": "26111900000263",
+      "timeEnroute": 50,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "329",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A846",
+      "lengthOfStay": 83,
+      "incidentNumber": "26111900000246",
+      "timeEnroute": 101,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "329",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Fort Washington Medical Center (Adventist) - 522",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "016"
+    ],
+    "destinationCode": "522",
+    "numOfUnits": 3,
+    "minStay": 7,
+    "maxStay": 72,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.728763,
+    "lon": -76.992571,
+    "units": [
+     {
+      "destinationCode": "522",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A825",
+      "lengthOfStay": 7,
+      "incidentNumber": "26111900000280",
+      "timeEnroute": 38,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "522",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "PA829",
+      "lengthOfStay": 7,
+      "incidentNumber": "26111900000271",
+      "timeEnroute": 34,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "522",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A842",
+      "lengthOfStay": 72,
+      "incidentNumber": "26111900000249",
+      "timeEnroute": 77,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "522",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 2,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Franklin Square (MedStar) - 203",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "003"
+    ],
+    "destinationCode": "203",
+    "numOfUnits": 4,
+    "minStay": 7,
+    "maxStay": 48,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.35206,
+    "lon": -76.478397,
+    "units": [
+     {
+      "destinationCode": "203",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M285",
+      "lengthOfStay": 7,
+      "incidentNumber": "263230233",
+      "timeEnroute": 25,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "203",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A116",
+      "lengthOfStay": 10,
+      "incidentNumber": "263230236",
+      "timeEnroute": 17,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "203",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M16",
+      "lengthOfStay": 23,
+      "incidentNumber": "263230216",
+      "timeEnroute": 28,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "203",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M204",
+      "lengthOfStay": 48,
+      "incidentNumber": "263230202",
+      "timeEnroute": 67,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "203",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Frederick Health Hospital - 239",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "010"
+    ],
+    "destinationCode": "239",
+    "numOfUnits": 4,
+    "minStay": 13,
+    "maxStay": 25,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.422459,
+    "lon": -77.414976,
+    "units": [
+     {
+      "destinationCode": "239",
+      "jurisdiction": "Frederick County (010)",
+      "agencyName": "FREDERICK COUNTY DIVISION OF FIRE & RESCUE",
+      "unitCallSign": "ALS4",
+      "lengthOfStay": 13,
+      "incidentNumber": "FIRE-26-040498",
+      "timeEnroute": 21,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "239",
+      "jurisdiction": "Frederick County (010)",
+      "agencyName": "FREDERICK COUNTY DIVISION OF FIRE & RESCUE",
+      "unitCallSign": "A69",
+      "lengthOfStay": 25,
+      "incidentNumber": "FIRE-26-040492",
+      "timeEnroute": 46,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "239",
+      "jurisdiction": "Frederick County (010)",
+      "agencyName": "FREDERICK COUNTY DIVISION OF FIRE & RESCUE",
+      "unitCallSign": "ALS30",
+      "lengthOfStay": 25,
+      "incidentNumber": "FIRE-26-040492",
+      "timeEnroute": 48,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "239",
+      "jurisdiction": "Frederick County (010)",
+      "agencyName": "FREDERICK COUNTY DIVISION OF FIRE & RESCUE",
+      "unitCallSign": "EMS901",
+      "lengthOfStay": 25,
+      "incidentNumber": "FIRE-26-040492",
+      "timeEnroute": 46,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "239",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 3,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Good Samaritan Hospital (MedStar) - 226",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "033"
+    ],
+    "destinationCode": "226",
+    "numOfUnits": 1,
+    "minStay": 6,
+    "maxStay": 6,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.358346,
+    "lon": -76.587695,
+    "units": [
+     {
+      "destinationCode": "226",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "A30",
+      "lengthOfStay": 6,
+      "incidentNumber": "26171945",
+      "timeEnroute": 25,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "226",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Greater Baltimore Medical Center - 217",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "003"
+    ],
+    "destinationCode": "217",
+    "numOfUnits": 1,
+    "minStay": 22,
+    "maxStay": 22,
+    "numOfUnitsEnroute": 1,
+    "lat": 39.391449,
+    "lon": -76.625261,
+    "units": [
+     {
+      "destinationCode": "217",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M1",
+      "lengthOfStay": 22,
+      "incidentNumber": "263230218",
+      "timeEnroute": 39,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "217",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M117",
+      "lengthOfStay": 0,
+      "incidentNumber": "263230234",
+      "timeEnroute": 21,
+      "isEnroute": 1
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "217",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Hanover Hospital (UPMC Pinnacle), PA - 242",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "006"
+    ],
+    "destinationCode": "242",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 1,
+    "lat": 39.808572,
+    "lon": -76.982936,
+    "units": [
+     {
+      "destinationCode": "242",
+      "jurisdiction": "Carroll County (006)",
+      "agencyName": "CARROLL COUNTY EMERGENCY SERVICES",
+      "unitCallSign": "M79",
+      "lengthOfStay": 0,
+      "incidentNumber": "26022469",
+      "timeEnroute": 7,
+      "isEnroute": 1
+     }
+    ],
+    "alerts": null
+   },
+   {
+    "destinationName": "Harbor Hospital (MedStar) - 211",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "033",
+     "002"
+    ],
+    "destinationCode": "211",
+    "numOfUnits": 2,
+    "minStay": 6,
+    "maxStay": 20,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.251597,
+    "lon": -76.613783,
+    "units": [
+     {
+      "destinationCode": "211",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "M9",
+      "lengthOfStay": 6,
+      "incidentNumber": "26171961",
+      "timeEnroute": 11,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "211",
+      "jurisdiction": "Anne Arundel County (002)",
+      "agencyName": "ANNE ARUNDEL COUNTY FIRE DEPT",
+      "unitCallSign": "MU31",
+      "lengthOfStay": 20,
+      "incidentNumber": "202689020",
+      "timeEnroute": 28,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "211",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Holy Cross Germantown Hospital - 444",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "015"
+    ],
+    "destinationCode": "444",
+    "numOfUnits": 4,
+    "minStay": 6,
+    "maxStay": 59,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.181683,
+    "lon": -77.242486,
+    "units": [
+     {
+      "destinationCode": "444",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "M708",
+      "lengthOfStay": 6,
+      "incidentNumber": "F2600155874",
+      "timeEnroute": 16,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "444",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "A753",
+      "lengthOfStay": 10,
+      "incidentNumber": "F2600155871",
+      "timeEnroute": 24,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "444",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "A735",
+      "lengthOfStay": 12,
+      "incidentNumber": "F2600155860",
+      "timeEnroute": 33,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "444",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "M714",
+      "lengthOfStay": 59,
+      "incidentNumber": "F2600155838",
+      "timeEnroute": 90,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "444",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Holy Cross Hospital - 244",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "015",
+     "016"
+    ],
+    "destinationCode": "244",
+    "numOfUnits": 3,
+    "minStay": 3,
+    "maxStay": 63,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.015194,
+    "lon": -77.035052,
+    "units": [
+     {
+      "destinationCode": "244",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "A716",
+      "lengthOfStay": 3,
+      "incidentNumber": "F2600155875",
+      "timeEnroute": 14,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "244",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A812",
+      "lengthOfStay": 27,
+      "incidentNumber": "26111900000273",
+      "timeEnroute": 45,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "244",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A802",
+      "lengthOfStay": 63,
+      "incidentNumber": "26111900000258",
+      "timeEnroute": 67,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "244",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 2,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Howard County Medical Center (JHM) - 223",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "013"
+    ],
+    "destinationCode": "223",
+    "numOfUnits": 3,
+    "minStay": 8,
+    "maxStay": 37,
+    "numOfUnitsEnroute": 1,
+    "lat": 39.214312,
+    "lon": -76.885555,
+    "units": [
+     {
+      "destinationCode": "223",
+      "jurisdiction": "Howard County (013)",
+      "agencyName": "HOWARD CO. DEPT. FIRE & RESCUE",
+      "unitCallSign": "A25",
+      "lengthOfStay": 8,
+      "incidentNumber": "F26044857",
+      "timeEnroute": 20,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "223",
+      "jurisdiction": "Howard County (013)",
+      "agencyName": "HOWARD CO. DEPT. FIRE & RESCUE",
+      "unitCallSign": "A95",
+      "lengthOfStay": 27,
+      "incidentNumber": "F26044856",
+      "timeEnroute": 43,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "223",
+      "jurisdiction": "Howard County (013)",
+      "agencyName": "HOWARD CO. DEPT. FIRE & RESCUE",
+      "unitCallSign": "A35",
+      "lengthOfStay": 37,
+      "incidentNumber": "F26044855",
+      "timeEnroute": 46,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "223",
+      "jurisdiction": "Howard County (013)",
+      "agencyName": "HOWARD CO. DEPT. FIRE & RESCUE",
+      "unitCallSign": "A65",
+      "lengthOfStay": 0,
+      "incidentNumber": "F26044862",
+      "timeEnroute": 1,
+      "isEnroute": 1
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "223",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 3,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Johns Hopkins Hospital PEDIATRIC - 704",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "003"
+    ],
+    "destinationCode": "704",
+    "numOfUnits": 1,
+    "minStay": 5,
+    "maxStay": 5,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.296747,
+    "lon": -76.592736,
+    "units": [
+     {
+      "destinationCode": "704",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M12",
+      "lengthOfStay": 5,
+      "incidentNumber": "263230231",
+      "timeEnroute": 24,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "704",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Mercy Medical Center - 207",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "033"
+    ],
+    "destinationCode": "207",
+    "numOfUnits": 4,
+    "minStay": 21,
+    "maxStay": 45,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.293394,
+    "lon": -76.612769,
+    "units": [
+     {
+      "destinationCode": "207",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "A29",
+      "lengthOfStay": 21,
+      "incidentNumber": "26171934",
+      "timeEnroute": 52,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "207",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "M10",
+      "lengthOfStay": 25,
+      "incidentNumber": "26171951",
+      "timeEnroute": 32,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "207",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "A809",
+      "lengthOfStay": 31,
+      "incidentNumber": "26171932",
+      "timeEnroute": 51,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "207",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "A806",
+      "lengthOfStay": 45,
+      "incidentNumber": "26171942",
+      "timeEnroute": 55,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "207",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Nanticoke (TidalHealth), DE - 351",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "009"
+    ],
+    "destinationCode": "351",
+    "numOfUnits": 1,
+    "minStay": 17,
+    "maxStay": 17,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.641752,
+    "lon": -75.604512,
+    "units": [
+     {
+      "destinationCode": "351",
+      "jurisdiction": "Dorchester County (009)",
+      "agencyName": "DORCHESTER COUNTY EMS",
+      "unitCallSign": "P200",
+      "lengthOfStay": 17,
+      "incidentNumber": "Z26087527",
+      "timeEnroute": 36,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "351",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": null,
+     "notes": "STEMI Unavailable",
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Northwest Hospital (LifeBridge) - 218",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "003"
+    ],
+    "destinationCode": "218",
+    "numOfUnits": 5,
+    "minStay": 4,
+    "maxStay": 23,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.358713,
+    "lon": -76.781036,
+    "units": [
+     {
+      "destinationCode": "218",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M56",
+      "lengthOfStay": 4,
+      "incidentNumber": "263230235",
+      "timeEnroute": 13,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "218",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M19",
+      "lengthOfStay": 9,
+      "incidentNumber": "263230227",
+      "timeEnroute": 9,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "218",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M3",
+      "lengthOfStay": 13,
+      "incidentNumber": "263230229",
+      "timeEnroute": 25,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "218",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A415",
+      "lengthOfStay": 16,
+      "incidentNumber": "263230226",
+      "timeEnroute": 28,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "218",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M18",
+      "lengthOfStay": 23,
+      "incidentNumber": "263230228",
+      "timeEnroute": 38,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "218",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 2,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Peninsula Regional (TidalHealth) - 408",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "022"
+    ],
+    "destinationCode": "408",
+    "numOfUnits": 1,
+    "minStay": 17,
+    "maxStay": 17,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.361848,
+    "lon": -75.598534,
+    "units": [
+     {
+      "destinationCode": "408",
+      "jurisdiction": "Wicomico County (022)",
+      "agencyName": "WICOMICO COUNTY EMS, FIRE/RESCUE",
+      "unitCallSign": "A74",
+      "lengthOfStay": 17,
+      "incidentNumber": "WCMS202617184",
+      "timeEnroute": 24,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "408",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "R Adams Cowley Shock Trauma Center - 634",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "013"
+    ],
+    "destinationCode": "634",
+    "numOfUnits": 1,
+    "minStay": 30,
+    "maxStay": 30,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.28748,
+    "lon": -76.625802,
+    "units": [
+     {
+      "destinationCode": "634",
+      "jurisdiction": "Howard County (013)",
+      "agencyName": "HOWARD CO. DEPT. FIRE & RESCUE",
+      "unitCallSign": "A75",
+      "lengthOfStay": 30,
+      "incidentNumber": "F26044852",
+      "timeEnroute": 55,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "634",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Shady Grove Medical Center (Adventist) - 265",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "015"
+    ],
+    "destinationCode": "265",
+    "numOfUnits": 4,
+    "minStay": 3,
+    "maxStay": 92,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.098348,
+    "lon": -77.197516,
+    "units": [
+     {
+      "destinationCode": "265",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "A728",
+      "lengthOfStay": 3,
+      "incidentNumber": "F2600155873",
+      "timeEnroute": 23,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "265",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "A733",
+      "lengthOfStay": 36,
+      "incidentNumber": "F2600155861",
+      "timeEnroute": 39,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "265",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "M703",
+      "lengthOfStay": 38,
+      "incidentNumber": "F2600155855",
+      "timeEnroute": 58,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "265",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "A703",
+      "lengthOfStay": 92,
+      "incidentNumber": "F2600155835",
+      "timeEnroute": 102,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "265",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Sibley Memorial Hospital (JHM), DC - 324",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "015"
+    ],
+    "destinationCode": "324",
+    "numOfUnits": 1,
+    "minStay": 24,
+    "maxStay": 24,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.936658,
+    "lon": -77.108409,
+    "units": [
+     {
+      "destinationCode": "324",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "A707",
+      "lengthOfStay": 24,
+      "incidentNumber": "F2600155856",
+      "timeEnroute": 51,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "324",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Sinai Hospital (LifeBridge) - 210",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "033",
+     "003"
+    ],
+    "destinationCode": "210",
+    "numOfUnits": 2,
+    "minStay": 1,
+    "maxStay": 41,
+    "numOfUnitsEnroute": 1,
+    "lat": 39.352766,
+    "lon": -76.661944,
+    "units": [
+     {
+      "destinationCode": "210",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "A22",
+      "lengthOfStay": 1,
+      "incidentNumber": "26171946",
+      "timeEnroute": 27,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "210",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "M18",
+      "lengthOfStay": 41,
+      "incidentNumber": "26171918",
+      "timeEnroute": 78,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "210",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M111",
+      "lengthOfStay": 0,
+      "incidentNumber": "263230237",
+      "timeEnroute": 11,
+      "isEnroute": 1
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "210",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 3,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Southern Maryland Hospital (MedStar) - 343",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "016"
+    ],
+    "destinationCode": "343",
+    "numOfUnits": 4,
+    "minStay": 45,
+    "maxStay": 144,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.748866,
+    "lon": -76.877159,
+    "units": [
+     {
+      "destinationCode": "343",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "PA821",
+      "lengthOfStay": 45,
+      "incidentNumber": "26111900000257",
+      "timeEnroute": 60,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "343",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "A823",
+      "lengthOfStay": 46,
+      "incidentNumber": "26111900000261",
+      "timeEnroute": 61,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "343",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "PA840",
+      "lengthOfStay": 93,
+      "incidentNumber": "26111900000244",
+      "timeEnroute": 105,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "343",
+      "jurisdiction": "Prince George's County (016)",
+      "agencyName": "PRINCE GEORGE''S COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "PA820",
+      "lengthOfStay": 144,
+      "incidentNumber": "26111900000205",
+      "timeEnroute": 169,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "343",
+     "red": null,
+     "yellow": null,
+     "reroute": "01:06",
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "St. Agnes Hospital (Ascension) - 212",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "033",
+     "003"
+    ],
+    "destinationCode": "212",
+    "numOfUnits": 3,
+    "minStay": 23,
+    "maxStay": 66,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.27213,
+    "lon": -76.672944,
+    "units": [
+     {
+      "destinationCode": "212",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M355",
+      "lengthOfStay": 23,
+      "incidentNumber": "263230225",
+      "timeEnroute": 29,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "212",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M13",
+      "lengthOfStay": 29,
+      "incidentNumber": "263230213",
+      "timeEnroute": 43,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "212",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "A810",
+      "lengthOfStay": 66,
+      "incidentNumber": "26171922",
+      "timeEnroute": 82,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "212",
+     "red": null,
+     "yellow": null,
+     "reroute": "00:04",
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "St. Joseph Medical Center (UM) - 213",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "003"
+    ],
+    "destinationCode": "213",
+    "numOfUnits": 1,
+    "minStay": 28,
+    "maxStay": 28,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.389243,
+    "lon": -76.611674,
+    "units": [
+     {
+      "destinationCode": "213",
+      "jurisdiction": "Baltimore County (003)",
+      "agencyName": "BALTIMORE COUNTY FIRE DEPARTMENT",
+      "unitCallSign": "M101",
+      "lengthOfStay": 28,
+      "incidentNumber": "263230217",
+      "timeEnroute": 33,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "213",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "St. Mary’s Hospital (MedStar) - 333",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "018"
+    ],
+    "destinationCode": "333",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 1,
+    "lat": 38.302172,
+    "lon": -76.638025,
+    "units": [
+     {
+      "destinationCode": "333",
+      "jurisdiction": "St. Mary's County (018)",
+      "agencyName": "ST. MARY''S COUNTY EMERGENCY SERVICES",
+      "unitCallSign": "A299",
+      "lengthOfStay": 0,
+      "incidentNumber": "2026-29002894",
+      "timeEnroute": 6,
+      "isEnroute": 1
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "333",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 2,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Suburban Hospital (JHM) - 249",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "015"
+    ],
+    "destinationCode": "249",
+    "numOfUnits": 4,
+    "minStay": 21,
+    "maxStay": 121,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.997296,
+    "lon": -77.109883,
+    "units": [
+     {
+      "destinationCode": "249",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "M731",
+      "lengthOfStay": 21,
+      "incidentNumber": "F2600155854",
+      "timeEnroute": 42,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "249",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "A741B",
+      "lengthOfStay": 24,
+      "incidentNumber": "F2600155865",
+      "timeEnroute": 33,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "249",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "M732",
+      "lengthOfStay": 62,
+      "incidentNumber": "F2600155844",
+      "timeEnroute": 84,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "249",
+      "jurisdiction": "Montgomery County (015)",
+      "agencyName": "MONTGOMERY CO FIRE/RESCUE",
+      "unitCallSign": "A734",
+      "lengthOfStay": 121,
+      "incidentNumber": "F2600155809",
+      "timeEnroute": 150,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "249",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 3,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Union Hospital (ChristianaCare) - 298",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "007"
+    ],
+    "destinationCode": "298",
+    "numOfUnits": 1,
+    "minStay": 42,
+    "maxStay": 42,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.609074,
+    "lon": -75.831598,
+    "units": [
+     {
+      "destinationCode": "298",
+      "jurisdiction": "Cecil County (007)",
+      "agencyName": "CECIL COUNTY EMS, RESCUE/FIRE",
+      "unitCallSign": "A893",
+      "lengthOfStay": 42,
+      "incidentNumber": "2616917",
+      "timeEnroute": 55,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "298",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Union Memorial Hospital (MedStar) - 214",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "033"
+    ],
+    "destinationCode": "214",
+    "numOfUnits": 1,
+    "minStay": 21,
+    "maxStay": 21,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.329252,
+    "lon": -76.614598,
+    "units": [
+     {
+      "destinationCode": "214",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "A24",
+      "lengthOfStay": 21,
+      "incidentNumber": "26171939",
+      "timeEnroute": 40,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "214",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "University of Maryland Medical Center - 215",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "033"
+    ],
+    "destinationCode": "215",
+    "numOfUnits": 1,
+    "minStay": 2,
+    "maxStay": 2,
+    "numOfUnitsEnroute": 1,
+    "lat": 39.288207,
+    "lon": -76.625196,
+    "units": [
+     {
+      "destinationCode": "215",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "M21",
+      "lengthOfStay": 2,
+      "incidentNumber": "26171967",
+      "timeEnroute": 12,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "215",
+      "jurisdiction": "Baltimore City (033)",
+      "agencyName": "BALTIMORE CITY FIRE DEPARTMENT",
+      "unitCallSign": "M15",
+      "lengthOfStay": 0,
+      "incidentNumber": "26171956",
+      "timeEnroute": 7,
+      "isEnroute": 1
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "215",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Upper Chesapeake Health Aberdeen (UMUCH) - 388",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "007"
+    ],
+    "destinationCode": "388",
+    "numOfUnits": 1,
+    "minStay": 35,
+    "maxStay": 35,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.521462,
+    "lon": -76.175964,
+    "units": [
+     {
+      "destinationCode": "388",
+      "jurisdiction": "Cecil County (007)",
+      "agencyName": "CECIL COUNTY EMS, RESCUE/FIRE",
+      "unitCallSign": "A692",
+      "lengthOfStay": 35,
+      "incidentNumber": "2616918",
+      "timeEnroute": 46,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "388",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 2,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Upper Chesapeake Medical Center (UMUCH) - 224",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "012"
+    ],
+    "destinationCode": "224",
+    "numOfUnits": 1,
+    "minStay": 24,
+    "maxStay": 24,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.518852,
+    "lon": -76.346123,
+    "units": [
+     {
+      "destinationCode": "224",
+      "jurisdiction": "Harford County (012)",
+      "agencyName": "HARFORD COUNTY DEPARTMENT OF EMERGENCY SERVICES",
+      "unitCallSign": "A81",
+      "lengthOfStay": 24,
+      "incidentNumber": "2026-00259958",
+      "timeEnroute": 39,
+      "isEnroute": 0
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "224",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Western Maryland (UPMC) - 395",
+    "jurisdiction": null,
+    "jurisdictionCode": [
+     "001"
+    ],
+    "destinationCode": "395",
+    "numOfUnits": 2,
+    "minStay": 25,
+    "maxStay": 74,
+    "numOfUnitsEnroute": 2,
+    "lat": 39.648237,
+    "lon": -78.733514,
+    "units": [
+     {
+      "destinationCode": "395",
+      "jurisdiction": "Allegany County (001)",
+      "agencyName": "ALLEGANY COUNTY FIRE/EMS",
+      "unitCallSign": "A344",
+      "lengthOfStay": 25,
+      "incidentNumber": "260082701",
+      "timeEnroute": 36,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "395",
+      "jurisdiction": "Allegany County (001)",
+      "agencyName": "ALLEGANY COUNTY FIRE/EMS",
+      "unitCallSign": "A350",
+      "lengthOfStay": 74,
+      "incidentNumber": "260082689",
+      "timeEnroute": 96,
+      "isEnroute": 0
+     },
+     {
+      "destinationCode": "395",
+      "jurisdiction": "Allegany County (001)",
+      "agencyName": "ALLEGANY COUNTY FIRE/EMS",
+      "unitCallSign": "A371",
+      "lengthOfStay": 0,
+      "incidentNumber": "260082702",
+      "timeEnroute": 11,
+      "isEnroute": 1
+     },
+     {
+      "destinationCode": "395",
+      "jurisdiction": "Allegany County (001)",
+      "agencyName": "ALLEGANY COUNTY FIRE/EMS",
+      "unitCallSign": "A398",
+      "lengthOfStay": 0,
+      "incidentNumber": "260082705",
+      "timeEnroute": 8,
+      "isEnroute": 1
+     }
+    ],
+    "alerts": {
+     "hospitalCode": "395",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Johns Hopkins Bayview - 201",
+    "jurisdiction": "BALTIMORE (CITY)",
+    "jurisdictionCode": [],
+    "destinationCode": "201",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.290437,
+    "lon": -76.5475,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "201",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 3,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Johns Hopkins Hospital ADULT - 204",
+    "jurisdiction": "BALTIMORE (CITY)",
+    "jurisdictionCode": [],
+    "destinationCode": "204",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.297268,
+    "lon": -76.592208,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "204",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 3,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Midtown (UM) - 206",
+    "jurisdiction": "BALTIMORE (CITY)",
+    "jurisdictionCode": [],
+    "destinationCode": "206",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.299837,
+    "lon": -76.620882,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "206",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 3,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Grace Medical Center (LifeBridge) - 208",
+    "jurisdiction": "BALTIMORE (CITY)",
+    "jurisdictionCode": [],
+    "destinationCode": "208",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.289059,
+    "lon": -76.649124,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "208",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Cambridge Free-Standing ED (UMSRH) - 229",
+    "jurisdiction": "DORCHESTER",
+    "jurisdictionCode": [],
+    "destinationCode": "229",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.544028,
+    "lon": -75.941558,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "229",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Montgomery Medical Center (MedStar) - 264",
+    "jurisdiction": "MONTGOMERY",
+    "jurisdictionCode": [],
+    "destinationCode": "264",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.153818,
+    "lon": -77.055235,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "264",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 3,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "CalvertHealth Medical Center - 266",
+    "jurisdiction": "CALVERT",
+    "jurisdictionCode": [],
+    "destinationCode": "266",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.559592,
+    "lon": -76.596266,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "266",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Howard University Hospital, DC - 270",
+    "jurisdiction": "DISTRICT OF COLUMBIA",
+    "jurisdictionCode": [],
+    "destinationCode": "270",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.9175,
+    "lon": -77.020372,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "270",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": null,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Easton (UMSRH) - 297",
+    "jurisdiction": "TALBOT",
+    "jurisdictionCode": [],
+    "destinationCode": "297",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.7702,
+    "lon": -76.077248,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "297",
+     "red": null,
+     "yellow": null,
+     "reroute": "04:08",
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Christiana Hospital, DE - 304",
+    "jurisdiction": "NEW CASTLE",
+    "jurisdictionCode": [],
+    "destinationCode": "304",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.688331,
+    "lon": -75.668996,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "304",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": null,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Garrett Regional Medical Center (WVU) - 322",
+    "jurisdiction": "GARRETT",
+    "jurisdictionCode": [],
+    "destinationCode": "322",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.413426,
+    "lon": -79.400882,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "322",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Washington Hospital Center (MedStar), DC - 327",
+    "jurisdiction": "DISTRICT OF COLUMBIA",
+    "jurisdictionCode": [],
+    "destinationCode": "327",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.928859,
+    "lon": -77.012428,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "327",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "McCready Health Pavilion - 332",
+    "jurisdiction": "SOMERSET",
+    "jurisdictionCode": [],
+    "destinationCode": "332",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 37.997565,
+    "lon": -75.852443,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "332",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "George Washington University Hospital, DC - 335",
+    "jurisdiction": "DISTRICT OF COLUMBIA",
+    "jurisdictionCode": [],
+    "destinationCode": "335",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.901314,
+    "lon": -77.050645,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "335",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": null,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Georgetown University (MedStar), DC - 337",
+    "jurisdiction": "DISTRICT OF COLUMBIA",
+    "jurisdictionCode": [],
+    "destinationCode": "337",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.911468,
+    "lon": -77.07517,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "337",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": null,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Bayhealth Hospital, Kent Campus, DE - 350",
+    "jurisdiction": "KENT",
+    "jurisdictionCode": [],
+    "destinationCode": "350",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.152419,
+    "lon": -75.524446,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "350",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": null,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Laurel Medical Center (UMCRH) - 352",
+    "jurisdiction": "PRINCE GEORGE'S",
+    "jurisdictionCode": [],
+    "destinationCode": "352",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.086968,
+    "lon": -76.880989,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "352",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Bowie Health Center (UMCRH) - 353",
+    "jurisdiction": "PRINCE GEORGE'S",
+    "jurisdictionCode": [],
+    "destinationCode": "353",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.949664,
+    "lon": -76.745966,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "353",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Walter Reed National Military Medical Center - 355",
+    "jurisdiction": "MONTGOMERY",
+    "jurisdictionCode": [],
+    "destinationCode": "355",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.001594,
+    "lon": -77.093874,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "355",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Atlantic (TidalHealth) - 381",
+    "jurisdiction": "WORCESTER",
+    "jurisdictionCode": [],
+    "destinationCode": "381",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.339952,
+    "lon": -75.211548,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "381",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Queenstown Emergency Center (UMSRH) - 387",
+    "jurisdiction": "QUEEN ANNE'S",
+    "jurisdictionCode": [],
+    "destinationCode": "387",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.96726,
+    "lon": -76.182354,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "387",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 2,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Meritus Medical Center - 389",
+    "jurisdiction": "WASHINGTON",
+    "jurisdictionCode": [],
+    "destinationCode": "389",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.622505,
+    "lon": -77.684747,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "389",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 1,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "Cedar Hill Regional Medical Center, DC - 412",
+    "jurisdiction": "DISTRICT OF COLUMBIA",
+    "jurisdictionCode": [],
+    "destinationCode": "412",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 38.850903,
+    "lon": -76.994256,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "412",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": null,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   },
+   {
+    "destinationName": "White Oak Medical Center (Adventist) - 428",
+    "jurisdiction": "MONTGOMERY",
+    "jurisdictionCode": [],
+    "destinationCode": "428",
+    "numOfUnits": 0,
+    "minStay": 0,
+    "maxStay": 0,
+    "numOfUnitsEnroute": 0,
+    "lat": 39.050833,
+    "lon": -76.956912,
+    "units": [],
+    "alerts": {
+     "hospitalCode": "428",
+     "red": null,
+     "yellow": null,
+     "reroute": null,
+     "codeBlack": null,
+     "traumaBypass": null,
+     "capacity": null,
+     "edCensusIndicatorScore": 4,
+     "notes": null,
+     "codeBlackReason": null
+    }
+   }
+  ]
+ }
+}
