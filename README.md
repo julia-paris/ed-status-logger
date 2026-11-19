@@ -1,19 +1,22 @@
 # ED status logger
 
-Archives two public emergency-department status dashboards every 15 minutes, because neither site keeps (or publishes) a full history:
+Archives three public emergency-department status dashboards every 15 minutes, because none of them publishes a full history:
 
 | Source | Dashboard | Feed saved |
 |---|---|---|
 | Maryland EDAS (MIEMSS) | https://edas.miemss.org/dashboard | `edas-services/api/cachedhospitalstatus` |
 | New York ED Status (Juvare) | https://nydiverts.juvare.com/ | `nydiverts.juvare.com.json` |
+| Georgia Coordinating Center (ImageTrend) | https://georgiarcc.org/ | `georgiarcc.imagetrendresourcebridge.com/ws/ResourceBridgeAPI/api/Agencies` |
 
-A GitHub Actions workflow ([`.github/workflows/snapshot.yml`](.github/workflows/snapshot.yml)) runs [`logger/snapshot.py`](logger/snapshot.py) on a `*/15 * * * *` schedule and commits the raw JSON to `snapshots/<source>/YYYY/MM/DD/<UTC timestamp>.json`.
+A GitHub Actions workflow ([`.github/workflows/snapshot.yml`](.github/workflows/snapshot.yml)) runs [`logger/snapshot.py`](logger/snapshot.py) on a `*/15 * * * *` schedule and commits the raw JSON, gzipped, to `snapshots/<source>/YYYY/MM/DD/<UTC timestamp>.json.gz` (the first few snapshots from 2026-11-19 are plain `.json`).
 
 ## What each snapshot contains
 
 **Maryland** — for every hospital: ED Census Index level (1–4), active alerts (Reroute, Code Black + reason, Trauma Bypass, Capacity) with how long they have been active, free-text notes (e.g. "STEMI Unavailable"), number of EMS units at the facility and en route, min/max ambulance length of stay, and one record per EMS unit (agency, call sign, incident number, minutes at hospital / en route).
 
 **New York** — for every hospital: ED status (open, diversion, not reporting, …), diversion reason, comments, county, and the feed's own last-updated time.
+
+**Georgia** — for 136 hospitals: diversion status (Open, ED Divert, Total Divert, …) with reason, comments and when it last changed; latest NEDOCS crowding score; staffed/available beds by type (ED, med-surg, ICU, …); accepting/not-accepting status for specialty services (STEMI, stroke, trauma, burn, psych, L&D, NICU, …); trauma/stroke/STEMI designation levels. Only the diversion and NEDOCS fields are updated frequently; some hospitals' beds and specialties go months without updates. The Georgia Coordinating Center call center closed in April 2025, but hospitals still post statuses to this board.
 
 ## Working with the data
 
@@ -23,7 +26,7 @@ cd ed-status-logger
 python3 logger/build_tables.py   # -> tables/*.csv
 ```
 
-`build_tables.py` flattens all snapshots into `tables/maryland_hospital_status.csv`, `tables/maryland_units.csv` and `tables/newyork_ed_status.csv` (git-ignored; regenerate any time).
+`build_tables.py` flattens all snapshots into `tables/maryland_hospital_status.csv`, `tables/maryland_units.csv`, `tables/newyork_ed_status.csv`, `tables/georgia_status.csv`, `tables/georgia_beds.csv` and `tables/georgia_specialties.csv` (git-ignored; regenerate any time).
 
 ## Historical backfill (Maryland only)
 
@@ -34,10 +37,11 @@ The EDAS reports site (https://edas.miemss.org/reports) exposes history from Aug
 
 Scripts: `history/maryland/scripts/` (`edas_pull.py all`, `edas_level4_daily.py [start] [end]`, re-runnable and resumable).
 
-New York has no public history; the snapshots here are the only record.
+New York and Georgia have no public history; the snapshots here are the only record.
 
 ## Caveats
 
 - Scheduled runs can be delayed several minutes, or occasionally skipped, at GitHub's busy times. Use `fetched_at_utc` in each file, not the file's position.
 - GitHub disables schedules in repos with no activity for 60 days; the workflow's own commits normally count as activity, but check the Actions tab if snapshots stop.
-- If one site is down, the other is still saved; the run only fails if both are down.
+- If one site is down, the others are still saved; the run only fails if all are down.
+- Growth: roughly 6 MB/day (~2 GB/year), mostly Georgia.
