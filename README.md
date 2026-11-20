@@ -58,7 +58,7 @@ Caveats: event counts rise sharply from 2022–2023, partly because Cardiac and 
 
 ## Caveats
 
-- GitHub's cron scheduler never fired for this repo in its first hours, so the snapshot workflow doesn't depend on it: each run loops for ~5h40m taking a snapshot every quarter hour, then starts the next run itself, which waits for the next quarter hour so no slot is captured twice. A cron entry every 3 hours only restarts the chain if it breaks. A snapshot can occasionally land a few minutes late or, when the chain is restarted by hand or by cron, twice in one quarter hour (as at 2026-11-20 04:30 UTC); use `fetched_at_utc` in each file rather than assuming exact spacing.
+- GitHub's cron scheduler never fired for this repo in its first hours, so the snapshot workflow doesn't depend on it: each run loops for ~5h40m taking a snapshot every quarter hour, then starts the next run itself, which waits for the next quarter hour so no slot is captured twice. A cron entry every 3 hours only restarts the chain if it breaks. A snapshot can occasionally land a few minutes late or, when the chain is restarted by hand or by cron, twice in one quarter hour (as at the 2026-11-20 04:30 UTC hand-off, before this fix); use `fetched_at_utc` in each file rather than assuming exact spacing.
 - If snapshots stop, check the Actions tab and start the `snapshot` workflow by hand (`gh workflow run snapshot.yml`).
 - If one site is down, the others are still saved; the run only fails if all are down.
 - Growth: roughly 6 MB/day (~2 GB/year), mostly Georgia.
