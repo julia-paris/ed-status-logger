@@ -10,11 +10,21 @@ name: snapshot
 #
 # Only one loop runs at a time: extra runs wait in the concurrency queue, and
 # GitHub keeps at most one waiting run, replacing older ones.
+#
+# At hand-off the finishing run passes the quarter hour it last snapshotted
+# ("after"), and the new run waits for the next quarter hour instead of
+# snapshotting immediately, so no quarter hour is captured twice. A run
+# started by hand or by the fallback cron has no "after" and starts at once.
 
 on:
   schedule:
     - cron: "7 */3 * * *"   # fallback restarter only
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      after:
+        description: "Unix time of the quarter hour the previous run already snapshotted (set by the hand-off)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -39,11 +49,19 @@ jobs:
           sparse-checkout-cone-mode: true
 
       - name: Snapshot every 15 minutes
+        env:
+          AFTER: ${{ inputs.after }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           end=$(( $(date +%s) + 340*60 ))
+          if [ -n "$AFTER" ]; then
+            next=$(( AFTER + 900 ))
+            now=$(date +%s)
+            [ "$next" -gt "$now" ] && sleep $(( next - now ))
+          fi
           while :; do
+            echo $(( $(date +%s) / 900 * 900 )) > "$RUNNER_TEMP/last_slot"
             python3 logger/snapshot.py || echo "snapshot failed"
             git add --sparse snapshots
             if ! git diff --cached --quiet; then
@@ -63,4 +81,6 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run snapshot.yml --repo "$GITHUB_REPOSITORY" --ref main
+        run: |
+          after=$(cat "$RUNNER_TEMP/last_slot" 2>/dev/null || true)
+          gh workflow run snapshot.yml --repo "$GITHUB_REPOSITORY" --ref main -f after="$after"
