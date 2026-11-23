@@ -35,7 +35,7 @@ python3 logger/build_tables.py   # -> tables/*.csv
 - `sf_hospital_diversions.csv` ([t4sf-777q](https://data.sf.gov/d/t4sf-777q)) — every hospital diversion since Jan 2024: hospital, category (ED, or Trauma Override at ZSFG), start, end, duration in minutes. Diversions expire after 2 hours unless re-declared, so long episodes appear as consecutive 2-hour rows; many rows are only a few minutes long.
 - `sf_hospital_suspensions.csv` ([6x9s-ipug](https://data.sf.gov/d/6x9s-ipug)) — every citywide diversion suspension (triggered when 4+ hospitals are on diversion; blocks new diversions for 4 hours): start, end, duration.
 
-Times are San Francisco local time as published. DataSF updates these monthly (roughly 6 weeks behind). A weekly workflow ([`.github/workflows/san-francisco.yml`](.github/workflows/san-francisco.yml), Mondays) re-downloads both and commits only when they change. Script: `history/san_francisco/scripts/sf_diversions.py`.
+Times are San Francisco local time as published. DataSF updates these monthly (roughly 6 weeks behind). A weekly workflow ([`.github/workflows/san-francisco.yml`](.github/workflows/san-francisco.yml), started Mondays 09:15 UTC by the snapshot loop) re-downloads both and commits only when they change. Script: `history/san_francisco/scripts/sf_diversions.py`.
 
 ## Historical backfill: Maryland
 
@@ -52,7 +52,7 @@ New York and Georgia have no public history; the snapshots here are the only rec
 
 `history/orange_county/oc_diversion_events.csv` — every diversion recorded in ReddiNet for Orange County's 26 Emergency Receiving Centers, Dec 31 2016 onward: facility, category (ED, Cardiac, Neuro, Trauma, CT, INT, Helipad), start and end time (Pacific local time, no timezone stored), duration in minutes, authorizing staff, operator, and comments. Downloaded from the data model behind the county's public Power BI "Diversion Dashboard" (https://www.ochealthinfo.com/providers-partners/emergency-medical-services/ems-system-reports/health-care-facilities) by `history/orange_county/scripts/oc_diversion_events.py`. Monthly hospital totals match the county's PDF diversion reports.
 
-A weekly workflow ([`.github/workflows/orange-county.yml`](.github/workflows/orange-county.yml), Mondays) re-downloads the table and commits it if anything changed; git history keeps each earlier version.
+A weekly workflow ([`.github/workflows/orange-county.yml`](.github/workflows/orange-county.yml), started Mondays 09:15 UTC by the snapshot loop) re-downloads the table and commits it if anything changed; git history keeps each earlier version.
 
 Caveats: event counts rise sharply from 2022–2023, partly because Cardiac and Neuro diversions are logged alongside ED diversions ("Caused by ED Diversion"); a few events have implausibly long durations (up to ~58 days); events identical in every field would be collapsed into one row.
 

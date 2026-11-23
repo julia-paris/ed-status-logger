@@ -14,7 +14,8 @@ name: snapshot
 # At hand-off the finishing run passes the quarter hour it last snapshotted
 # ("after"), and the new run waits for the next quarter hour instead of
 # snapshotting immediately, so no quarter hour is captured twice. A run
-# started by hand or by the fallback cron has no "after" and starts at once.
+# started by hand or by the fallback cron has no "after"; it skips the current
+# quarter hour only if the latest commit is already a snapshot from it.
 
 on:
   schedule:
@@ -51,10 +52,17 @@ jobs:
       - name: Snapshot every 15 minutes
         env:
           AFTER: ${{ inputs.after }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           end=$(( $(date +%s) + 340*60 ))
+          # Started by the backup cron or by hand: if the latest commit is a
+          # snapshot from this quarter hour, treat that slot as done.
+          if [ -z "$AFTER" ] && git log -1 --format=%s | grep -q '^snapshot '; then
+            last=$(( $(git log -1 --format=%ct) / 900 * 900 ))
+            [ "$last" -eq $(( $(date +%s) / 900 * 900 )) ] && AFTER=$last
+          fi
           if [ -n "$AFTER" ]; then
             next=$(( AFTER + 900 ))
             now=$(date +%s)
@@ -63,6 +71,12 @@ jobs:
           while :; do
             echo $(( $(date +%s) / 900 * 900 )) > "$RUNNER_TEMP/last_slot"
             python3 logger/snapshot.py || echo "snapshot failed"
+            # GitHub's weekly cron is unreliable, so start the weekly
+            # re-pulls from here on Mondays at 09:15 UTC.
+            if [ "$(date -u +%u%H%M)" = "10915" ]; then
+              gh workflow run orange-county.yml --repo "$GITHUB_REPOSITORY" --ref main || true
+              gh workflow run san-francisco.yml --repo "$GITHUB_REPOSITORY" --ref main || true
+            fi
             git add --sparse snapshots
             if ! git diff --cached --quiet; then
               git commit -q -m "snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
