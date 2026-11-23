@@ -76,6 +76,7 @@ jobs:
             if [ "$(date -u +%u%H%M)" = "10915" ]; then
               gh workflow run orange-county.yml --repo "$GITHUB_REPOSITORY" --ref main || true
               gh workflow run san-francisco.yml --repo "$GITHUB_REPOSITORY" --ref main || true
+              gh workflow run california.yml --repo "$GITHUB_REPOSITORY" --ref main || true
             fi
             git add --sparse snapshots
             if ! git diff --cached --quiet; then

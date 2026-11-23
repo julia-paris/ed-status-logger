@@ -1,0 +1,59 @@
+name: california
+
+# Weekly pulls of Sacramento County's offload-time (APOT) layers, which keep only the last two weeks,
+# and, on the first Monday of each month, Los Angeles County's yearly diversion reports (re-parsed in
+# full; the current year's report is updated during the year). Started by the snapshot loop on
+# Mondays at 09:15 UTC, since GitHub's own weekly cron proved unreliable here. Commits only on change.
+
+on:
+  workflow_dispatch:
+    inputs:
+      los_angeles:
+        description: "Also re-pull Los Angeles (otherwise only on the first Monday of the month)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot   # shared with the other history workflows so pushes don't collide
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            history/sacramento
+            history/los_angeles
+          sparse-checkout-cone-mode: true
+
+      - name: Sacramento APOT
+        run: python3 history/sacramento/scripts/sac_apot.py
+
+      - name: Los Angeles diversion reports
+        env:
+          FORCE: ${{ inputs.los_angeles }}
+        run: |
+          if [ "$FORCE" != "true" ] && [ "$(date -u +%d)" -gt 7 ]; then echo "not the first week of the month"; exit 0; fi
+          sudo apt-get install -y -qq poppler-utils >/dev/null
+          python3 history/los_angeles/scripts/la_diversion.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add history/sacramento/*.csv history/los_angeles/*.csv
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -q -m "california history $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            git pull --rebase -q && continue
+            sleep $((i * 5))
+          done
+          exit 1

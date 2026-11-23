@@ -1,4 +1,4 @@
-"""Save one snapshot of the Maryland EDAS, New York and Georgia ED status dashboards.
+"""Save one snapshot of the Maryland EDAS, New York, Georgia and San Diego ED status feeds.
 
 Each source is written as raw JSON to
     snapshots/<source>/<YYYY>/<MM>/<DD>/<YYYYMMDDTHHMMSSZ>.json.gz
@@ -25,6 +25,8 @@ SOURCES = {
     "newyork": "https://nydiverts.juvare.com/nydiverts.juvare.com.json",
     # Georgia Coordinating Center (ImageTrend Resource Bridge): diversion, NEDOCS, beds, specialty status.
     "georgia": "https://georgiarcc.imagetrendresourcebridge.com/ws/ResourceBridgeAPI/api/Agencies",
+    # San Diego County EMS (ImageTrend Resource Bridge, same layout as Georgia): diversion, beds, specialties.
+    "sandiego": "https://cosd.imagetrendresourcebridge.com/ws/ResourceBridgeAPI/api/Agencies",
 }
 
 # Some feeds only answer requests that look like they come from their dashboard page.

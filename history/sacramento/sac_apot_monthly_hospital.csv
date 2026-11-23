@@ -1,0 +1,122 @@
+year,month,hospital,apot_p90,apot_mean,patients
+2026,01,"Kaiser Permanente, Roseville Medical Center",0:27:16,0:16:36,864
+2026,01,"Kaiser Permanente, Sacramento Medical Center",0:20:27,0:12:26,1722
+2026,01,"Kaiser Permanente, South Sacramento Medical Center",0:28:17,0:16:43,1869
+2026,01,Mercy General Hospital,0:27:56,0:16:53,950
+2026,01,Mercy Hospital of Folsom,0:30:20,0:16:32,545
+2026,01,Mercy San Juan Medical Center,0:22:24,0:13:37,1899
+2026,01,Methodist Hospital of Sacramento,0:26:39,0:17:18,936
+2026,01,Sacramento VA Medical Center,0:16:30,0:10:35,198
+2026,01,Sutter Medical Center - Sacramento,0:48:49,0:27:51,1855
+2026,01,Sutter Roseville Medical Center,0:24:33,0:15:12,664
+2026,01,UC Davis Medical Center,0:29:07,0:17:03,1845
+2026,02,"Kaiser Permanente, Roseville Medical Center",0:21:37,0:13:21,793
+2026,02,"Kaiser Permanente, Sacramento Medical Center",0:29:06,0:15:55,1613
+2026,02,"Kaiser Permanente, South Sacramento Medical Center",0:36:46,0:21:06,1701
+2026,02,Mercy General Hospital,0:30:15,0:17:50,881
+2026,02,Mercy Hospital of Folsom,0:30:29,0:16:50,499
+2026,02,Mercy San Juan Medical Center,0:22:32,0:13:40,1779
+2026,02,Methodist Hospital of Sacramento,0:28:56,0:18:31,874
+2026,02,Sacramento VA Medical Center,0:16:38,0:10:17,164
+2026,02,Sutter Medical Center - Sacramento,0:42:43,0:25:42,1687
+2026,02,Sutter Roseville Medical Center,0:22:46,0:14:55,597
+2026,02,UC Davis Medical Center,0:29:14,0:17:05,1685
+2026,03,"Kaiser Permanente, Roseville Medical Center",0:27:26,0:17:56,857
+2026,03,"Kaiser Permanente, Sacramento Medical Center",0:25:05,0:14:17,1886
+2026,03,"Kaiser Permanente, South Sacramento Medical Center",0:27:38,0:16:44,1795
+2026,03,Mercy General Hospital,0:25:55,0:16:06,964
+2026,03,Mercy Hospital of Folsom,0:26:39,0:15:42,577
+2026,03,Mercy San Juan Medical Center,0:21:29,0:13:24,2021
+2026,03,Methodist Hospital of Sacramento,0:26:55,0:18:04,924
+2026,03,Sacramento VA Medical Center,0:16:25,0:10:29,261
+2026,03,Sutter Medical Center - Sacramento,0:37:51,0:22:49,1874
+2026,03,Sutter Roseville Medical Center,0:23:28,0:14:58,657
+2026,03,UC Davis Medical Center,0:27:32,0:16:35,1933
+2026,04,"Kaiser Permanente, Roseville Medical Center",0:25:42,0:15:09,801
+2026,04,"Kaiser Permanente, Sacramento Medical Center",0:25:19,0:14:38,1752
+2026,04,"Kaiser Permanente, South Sacramento Medical Center",0:26:27,0:16:05,1707
+2026,04,Mercy General Hospital,0:24:52,0:15:33,865
+2026,04,Mercy Hospital of Folsom,0:27:15,0:16:11,513
+2026,04,Mercy San Juan Medical Center,0:22:15,0:13:40,1939
+2026,04,Methodist Hospital of Sacramento,0:26:24,0:17:28,885
+2026,04,Sacramento VA Medical Center,0:15:07,0:09:44,223
+2026,04,Sutter Medical Center - Sacramento,0:38:06,0:23:21,1770
+2026,04,Sutter Roseville Medical Center,0:23:04,0:14:38,566
+2026,04,UC Davis Medical Center,0:26:38,0:16:13,1863
+2026,05,"Kaiser Permanente, Roseville Medical Center",0:26:02,0:15:20,807
+2026,05,"Kaiser Permanente, Sacramento Medical Center",0:26:17,0:14:57,1870
+2026,05,"Kaiser Permanente, South Sacramento Medical Center",0:32:17,0:18:29,1910
+2026,05,Mercy General Hospital,0:28:12,0:16:59,915
+2026,05,Mercy Hospital of Folsom,0:27:41,0:16:03,540
+2026,05,Mercy San Juan Medical Center,0:21:48,0:13:44,1968
+2026,05,Methodist Hospital of Sacramento,0:27:35,0:18:10,981
+2026,05,Sacramento VA Medical Center,0:14:32,0:09:50,196
+2026,05,Sutter Medical Center - Sacramento,0:37:59,0:23:37,1904
+2026,05,Sutter Roseville Medical Center,0:23:28,0:15:18,619
+2026,05,UC Davis Medical Center,0:26:03,0:15:38,2012
+2026,06,"Kaiser Permanente, Roseville Medical Center",0:27:06,0:16:05,837
+2026,06,"Kaiser Permanente, Sacramento Medical Center",0:35:47,0:17:32,1850
+2026,06,"Kaiser Permanente, South Sacramento Medical Center",0:36:37,0:19:53,1772
+2026,06,Mercy General Hospital,0:28:45,0:17:30,878
+2026,06,Mercy Hospital of Folsom,0:26:06,0:15:35,514
+2026,06,Mercy San Juan Medical Center,0:23:58,0:15:08,2031
+2026,06,Methodist Hospital of Sacramento,0:27:17,0:17:41,879
+2026,06,Sacramento VA Medical Center,0:15:06,0:09:17,179
+2026,06,Sutter Medical Center - Sacramento,0:36:20,0:22:27,1874
+2026,06,Sutter Roseville Medical Center,0:24:19,0:15:20,635
+2026,06,UC Davis Medical Center,0:25:49,0:15:31,1945
+2026,07,"Kaiser Permanente, Roseville Medical Center",0:27:48,0:17:23,833
+2026,07,"Kaiser Permanente, Sacramento Medical Center",0:29:49,0:16:25,1834
+2026,07,"Kaiser Permanente, South Sacramento Medical Center",0:36:15,0:19:54,1774
+2026,07,Mercy General Hospital,0:28:22,0:17:09,919
+2026,07,Mercy Hospital of Folsom,0:26:28,0:15:43,580
+2026,07,Mercy San Juan Medical Center,0:25:40,0:16:14,2099
+2026,07,Methodist Hospital of Sacramento,0:27:25,0:18:10,862
+2026,07,Sacramento VA Medical Center,0:14:57,0:10:03,170
+2026,07,Sutter Medical Center - Sacramento,0:37:36,0:22:49,1930
+2026,07,Sutter Roseville Medical Center,0:22:09,0:14:40,663
+2026,07,UC Davis Medical Center,0:27:54,0:16:25,2058
+2026,08,"Kaiser Permanente, Roseville Medical Center",0:24:54,0:14:53,820
+2026,08,"Kaiser Permanente, Sacramento Medical Center",0:25:31,0:14:35,1932
+2026,08,"Kaiser Permanente, South Sacramento Medical Center",0:27:09,0:16:48,1758
+2026,08,Mercy General Hospital,0:27:48,0:17:08,958
+2026,08,Mercy Hospital of Folsom,0:25:12,0:15:24,532
+2026,08,Mercy San Juan Medical Center,0:23:24,0:14:34,2114
+2026,08,Methodist Hospital of Sacramento,0:27:16,0:17:36,942
+2026,08,Sacramento VA Medical Center,0:17:13,0:10:42,184
+2026,08,Sutter Medical Center - Sacramento,0:35:42,0:22:13,1993
+2026,08,Sutter Roseville Medical Center,0:23:23,0:15:04,667
+2026,08,UC Davis Medical Center,0:27:53,0:16:15,2058
+2026,09,"Kaiser Permanente, Roseville Medical Center",0:27:03,0:16:29,830
+2026,09,"Kaiser Permanente, Sacramento Medical Center",0:25:36,0:14:43,1929
+2026,09,"Kaiser Permanente, South Sacramento Medical Center",0:30:56,0:18:42,1629
+2026,09,Mercy General Hospital,0:29:05,0:17:42,998
+2026,09,Mercy Hospital of Folsom,0:27:50,0:17:15,469
+2026,09,Mercy San Juan Medical Center,0:25:20,0:15:54,2154
+2026,09,Methodist Hospital of Sacramento,0:25:23,0:17:10,920
+2026,09,Sacramento VA Medical Center,0:14:09,0:09:48,188
+2026,09,Sutter Medical Center - Sacramento,0:38:26,0:23:30,1957
+2026,09,Sutter Roseville Medical Center,0:24:19,0:15:24,659
+2026,09,UC Davis Medical Center,0:27:24,0:16:43,2072
+2026,10,"Kaiser Permanente, Roseville Medical Center",0:25:12,0:15:45,859
+2026,10,"Kaiser Permanente, Sacramento Medical Center",0:26:34,0:15:10,1928
+2026,10,"Kaiser Permanente, South Sacramento Medical Center",0:39:23,0:20:58,1904
+2026,10,Mercy General Hospital,0:30:05,0:17:27,1067
+2026,10,Mercy Hospital of Folsom,0:26:06,0:15:42,548
+2026,10,Mercy San Juan Medical Center,0:25:41,0:16:27,2189
+2026,10,Methodist Hospital of Sacramento,0:27:53,0:18:06,1011
+2026,10,Sacramento VA Medical Center,0:15:36,0:10:16,214
+2026,10,Sutter Medical Center - Sacramento,0:37:53,0:23:19,2033
+2026,10,Sutter Roseville Medical Center,0:24:23,0:15:37,659
+2026,10,UC Davis Medical Center,0:25:13,0:15:33,2152
+2026,11,"Kaiser Permanente, Roseville Medical Center",0:24:35,0:14:52,614
+2026,11,"Kaiser Permanente, Sacramento Medical Center",0:38:54,0:19:19,1400
+2026,11,"Kaiser Permanente, South Sacramento Medical Center",0:52:22,0:25:16,1271
+2026,11,Mercy General Hospital,0:35:58,0:20:30,694
+2026,11,Mercy Hospital of Folsom,0:29:03,0:17:34,410
+2026,11,Mercy San Juan Medical Center,0:34:32,0:20:11,1448
+2026,11,Methodist Hospital of Sacramento,0:30:25,0:19:08,756
+2026,11,Sacramento VA Medical Center,0:16:28,0:10:21,160
+2026,11,Sutter Medical Center - Sacramento,0:40:55,0:24:31,1516
+2026,11,Sutter Roseville Medical Center,0:26:14,0:16:44,506
+2026,11,UC Davis Medical Center,0:25:53,0:15:48,1540

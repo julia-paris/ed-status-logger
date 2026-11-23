@@ -9,6 +9,9 @@ Writes:
   tables/georgia_status.csv            one row per hospital per snapshot (diversion, NEDOCS, ED beds)
   tables/georgia_beds.csv              one row per hospital per bed type per snapshot
   tables/georgia_specialties.csv       one row per hospital per specialty service per snapshot
+  tables/sandiego_status.csv           same three tables for San Diego County (same ImageTrend feed layout)
+  tables/sandiego_beds.csv
+  tables/sandiego_specialties.csv
 """
 import csv
 import glob
@@ -76,19 +79,20 @@ def newyork():
 GA = ["fetched_at_utc", "dest_code", "hospital_name", "county", "region", "trauma_level", "stroke_level", "stemi_level",
       "eoc_status", "diversion_status", "diversion_reason", "diversion_comments", "diversion_updated_utc", "diversion_updated_by",
       "nedocs_score", "nedocs_description", "nedocs_time_local", "ed_beds_total", "ed_beds_available", "lat", "lon"]
-GA_BEDS = ["fetched_at_utc", "dest_code", "bed_type", "total_beds", "available_staffed", "updated_on"]
-GA_SPEC = ["fetched_at_utc", "dest_code", "specialty", "availability_status", "comment", "changed_on", "availability_begins",
+GA_BEDS = ["fetched_at_utc", "dest_code", "hospital_name", "bed_type", "total_beds", "available_staffed", "updated_on"]
+GA_SPEC = ["fetched_at_utc", "dest_code", "hospital_name", "specialty", "availability_status", "comment", "changed_on", "availability_begins",
            "availability_ends"]
 
 
-def georgia():
-    with open(os.path.join(OUT, "georgia_status.csv"), "w", newline="") as fs, \
-         open(os.path.join(OUT, "georgia_beds.csv"), "w", newline="") as fb, \
-         open(os.path.join(OUT, "georgia_specialties.csv"), "w", newline="") as fp:
+def resource_bridge(source):
+    """Georgia and San Diego both use ImageTrend Resource Bridge, so their feeds share one layout."""
+    with open(os.path.join(OUT, f"{source}_status.csv"), "w", newline="") as fs, \
+         open(os.path.join(OUT, f"{source}_beds.csv"), "w", newline="") as fb, \
+         open(os.path.join(OUT, f"{source}_specialties.csv"), "w", newline="") as fp:
         ws = csv.DictWriter(fs, GA); ws.writeheader()
         wb = csv.DictWriter(fb, GA_BEDS); wb.writeheader()
         wp = csv.DictWriter(fp, GA_SPEC); wp.writeheader()
-        for s in snaps("georgia"):
+        for s in snaps(source):
             t = s["fetched_at_utc"]
             for h in s["data"].get("results", []):
                 dv, nd = h.get("diversion") or {}, h.get("nedoc") or {}
@@ -104,10 +108,10 @@ def georgia():
                              "nedocs_time_local": nd.get("created_on_clientTime"), "ed_beds_total": ed.get("total_beds"),
                              "ed_beds_available": ed.get("available_staffed"), "lat": h.get("latitude"), "lon": h.get("longitude")})
                 for b in h.get("beds") or []:
-                    wb.writerow({"fetched_at_utc": t, "dest_code": code, "bed_type": b.get("name"), "total_beds": b.get("total_beds"),
+                    wb.writerow({"fetched_at_utc": t, "dest_code": code, "hospital_name": h.get("agencyName"), "bed_type": b.get("name"), "total_beds": b.get("total_beds"),
                                  "available_staffed": b.get("available_staffed"), "updated_on": b.get("updated_on")})
                 for sp in h.get("specialties") or []:
-                    wp.writerow({"fetched_at_utc": t, "dest_code": code, "specialty": sp.get("name"),
+                    wp.writerow({"fetched_at_utc": t, "dest_code": code, "hospital_name": h.get("agencyName"), "specialty": sp.get("name"),
                                  "availability_status": sp.get("availability_status"), "comment": sp.get("comment"),
                                  "changed_on": sp.get("changed_on"), "availability_begins": sp.get("availability_begins"),
                                  "availability_ends": sp.get("availability_ends")})
@@ -117,5 +121,6 @@ if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     maryland()
     newyork()
-    georgia()
+    resource_bridge("georgia")
+    resource_bridge("sandiego")
     print("wrote", ", ".join(sorted(os.listdir(OUT))))
