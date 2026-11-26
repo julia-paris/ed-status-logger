@@ -43,6 +43,9 @@ jobs:
       # Only check out the code, not the ever-growing snapshots/ folder.
       - uses: actions/checkout@v4
         with:
+          # Latest main, not the commit the run was queued on: a queued cron run can
+          # start hours later and must see the snapshot taken just before it.
+          ref: main
           fetch-depth: 1
           sparse-checkout: |
             logger
